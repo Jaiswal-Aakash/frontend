@@ -9,7 +9,7 @@ import { AxiosService } from '../services/ApiService';
 const LoginSchema = Yup.object().shape({
     number: Yup.string()
         .matches(/^\d{10}$/, 'Phone number must be 10 digits')
-        .required('Phone number is required'),
+        .required('Phone number required'),
 });
 
 
