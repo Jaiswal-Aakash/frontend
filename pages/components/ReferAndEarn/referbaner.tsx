@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import css from "./referbaner.module.scss";
 import * as config from "../../../next.config.js";
+import Image from "next/image";
+import banner from "../../../public/assets/referandearn/referearn.png"
 import { simpleCallInitAPI } from '../../../services/ApicallInit';
 import Toggle from "./refertoggle";
 // import SwitchToggle from "./referearnform";
-import Image from "next/image";
 
 const ReferBaner: React.FC = () => {
     const [referBaner, setReferBan] = React.useState([]);
@@ -17,7 +18,7 @@ const ReferBaner: React.FC = () => {
             data?.data?.settings?.referearnbaner?.forEach((datas: any) => {
                 let lc: any = {};
                 lc.referearnbaner1 = `${assetpath}${datas.image1}`;
-                lc.referearnbaner2 = `${assetpath}${datas.image2}`;
+                // lc.referearnbaner2 = `${assetpath}${datas.image2}`;
                 ReferEarnBaner.push(lc);
             })
             setReferBan(ReferEarnBaner)
@@ -29,16 +30,16 @@ const ReferBaner: React.FC = () => {
         <div className={`${css.referearn_layer}`}>
             <div className={css.referbaner_sliderwrapper}>
                 {referBaner?.map((datas: any, index: number) => (
-                    <div className="row py-3 " key={index}>
+                    <div className="row py-3" id="banner_img" key={index}>
                         <div className={" col-md-6 w-full flex items-center justify-start " + css.referbaner_image} >
 
                             <div key={`${index}_${index}`} >
                                 <div className={css.referearn_imagess }>
-                                    <img src={datas.referearnbaner1} alt="bannerImage" className={css.referman1} width={500} height={500} />
-                                    <img src={datas.referearnbaner2} alt="bannerImage" className={css.referman2} width={500} height={500} />
+                                    <Image src={banner} className={css.re_banner_img} alt="bannerImage" />
+                                    {/* <img src={datas.referearnbaner1 || "/assets/referandearn/referearn.png"} alt="bannerImage" className={css.referearn} width={500} height={500} /> */}
+                                    {/* <img src={datas.referearnbaner2} alt="bannerImage" className={css.referman2} width={500} height={500} /> */}
                                 </div>
                             </div>
-
 
                         </div>
                         <div className={" col-md-6 w-full flex justify-center items-center " + css.referbaner_form}>

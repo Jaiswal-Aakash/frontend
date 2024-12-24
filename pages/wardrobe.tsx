@@ -177,7 +177,7 @@ const WardrobePage: React.FC = () => {
                                 <DynamicIterableComponent data={data1} categoryId='11' />
                             </div>
                             <div>
-                                <MeetDesigner colour='blue' prop="Island Wardrobe" container="meetContainer2" />
+                                <MeetDesigner colour='blue' prop="L-Shaped Wardrobe" container="meetContainer2" />
                                 <DynamicIterableComponent data={data2} categoryId='12' />
                             </div>
                         </>

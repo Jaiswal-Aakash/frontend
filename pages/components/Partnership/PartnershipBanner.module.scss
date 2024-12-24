@@ -32,10 +32,7 @@
 .partnerImg{
     width: 90%;
     height: 90vh;
-    @media (max-width:1600px){
-        width: 750px;
-        height: 750px; 
-    }
+    margin:40px 0 0;
 }
 .partnerForm{
     position: absolute;

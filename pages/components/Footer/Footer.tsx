@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
 
                         <div className={css.footerContentSubContent}>
                             <div><img className={css.footerContentSubContentIcon} src={mobile} alt="M:" />8925-832-070, 8925-832-076</div>
-                            <div><img className={css.footerContentSubContentIcon} src={location} alt="L:" />Coimbatore | Rajapalayam</div>
+                            <div><img className={css.footerContentSubContentIcon} src={location} alt="L:" />Coimbatore</div>
                             <div><img className={css.footerContentSubContentIcon} src={mail} alt="E-Mail:" />madhu@lhome.co.in</div>
                         </div>
 

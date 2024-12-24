@@ -190,11 +190,11 @@ const ModularKitchenPage: React.FC = () => {
                   <DynamicIterableComponent data={data1} categoryId ='7' />
                 </div>
                 <div>
-                  <MeetDesigner colour='blue' prop="Island Kitchen" container="meetContainer2" />
+                  <MeetDesigner colour='blue' prop="L-Shaped Kitchen" container="meetContainer2" />
                   <DynamicIterableComponent data={data2} categoryId ='8' />
                 </div>
                 <div>
-                  <MeetDesigner colour='red' prop="L-Shaped Kitchen" container="meetContainer1" />
+                  <MeetDesigner colour='red' prop="Island Kitchen" container="meetContainer1" />
                   <DynamicIterableComponent data={data3} categoryId ='9' />
                 </div>
               </>}
