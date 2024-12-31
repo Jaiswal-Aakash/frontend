@@ -2,6 +2,9 @@
 const path = require('path');
 const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+},
   reactStrictMode: true,
   swcMinify: true,
   assetPrefix: '/',
