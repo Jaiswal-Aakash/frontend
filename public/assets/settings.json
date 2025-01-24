@@ -1695,7 +1695,7 @@
     "referearnbaner": [
       {
         "image1": "/assets/referandearn/referman1.png",
-        "image2": "/assets/referandearn/referman2.png",
+        "image2": "/assets/referandearn/referearn.png",
         "toptext1": "Loved us?",
         "toptext2": "Now refer us!",
         "topcontent": "Refer and earn ₹ 10,000 every time your friends try Lhome."
@@ -1719,7 +1719,7 @@
     ],
     "partnershipBanner": [
       {
-        "image": "/assets/partnership/partnership.png",
+        "image": "/assets/partnership/Partnerlhome.png",
         "name1": "Become the proud owner of a LHome",
         "name2": "Franchise studio"
       }
