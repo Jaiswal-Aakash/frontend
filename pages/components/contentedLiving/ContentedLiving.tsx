@@ -1,5 +1,5 @@
 import * as React from "react";
-import css from "../ContentedLiving/ContentedLiving.module.scss";
+import css from './ContentedLiving.module.scss';
 import * as config from "../../../next.config.js";
 import { simpleCallInitAPI } from '../../../services/ApicallInit';
 

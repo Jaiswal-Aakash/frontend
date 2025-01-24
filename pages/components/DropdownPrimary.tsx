@@ -239,7 +239,7 @@ const DropDownMenuPrimary: React.FC<DropDownProps> = ({ options, cities }) => {
                   </div>
                 </div>
               ) : (
-                <div className={css.iteralItemstyl}>
+                <div key={`key_${index}`} className={css.iteralItemstyl}>
                   <MenuItem key={`menu-${options}`} onClick={() => handleNav(options)}>
                     {options}
                   </MenuItem>

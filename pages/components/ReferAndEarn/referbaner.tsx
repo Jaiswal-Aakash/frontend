@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import css from "./referbaner.module.scss";
 import * as config from "../../../next.config.js";
 import Image from "next/image";
-import banner from "../../../public/assets/referandearn/referearn.png"
+import banner from "../../../public/assets/referandearn/referman2.png"
 import { simpleCallInitAPI } from '../../../services/ApicallInit';
 import Toggle from "./refertoggle";
 // import SwitchToggle from "./referearnform";

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import css from "./PartnershipBanner.module.scss";
 import * as config from "../../../next.config.js";
 import { simpleCallInitAPI } from '../../../services/ApicallInit';
-import partner from "../../../public/assets/partnership/Partnerlhome.png"
+import partner from "../../../public/assets/partnership/partnership.png"
 import Form from "../HomeSlider/Form";
 import Image from "next/image";
 
@@ -36,7 +36,7 @@ const PartnershipBanner: React.FC = () => {
                             <div className={css.partnerForm}><Form/></div>
                         </div>
                         <div className={css.partnerRight}>
-                        <Image src={partner} className={css.partnerImg} alt="partnerBannerImage" />
+                       <Image src={partner} className={css.partnerImg} alt="partnerBannerImage" />
                             {/* <img src={datas.partnerImg} alt="bannerImage" className={css.partnerImg}/> */}
                         </div>
                     </div>

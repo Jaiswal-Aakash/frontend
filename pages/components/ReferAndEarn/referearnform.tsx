@@ -36,6 +36,7 @@ const ReferEarnForm = () => {
                 <label className={css.referearnform_label}>Generate your referral link:</label>
                 <div className={css.input_field}>
                     <input value={inputValue}
+                        onChange={(e) => setInputValue(e.target.value)}
                         className={`placeholder-shown: border-[#D0D0D0]-200 p-3 ${css.referearnform_input}`}
                     />
                     <button className={copied ? css.copied : css.referearnform_copy_button} onClick={handleCopyClick}>{ copied ?"COPIED":"COPY LINK"}</button>

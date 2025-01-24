@@ -16,7 +16,6 @@ import DrawerMenu from "./DrawerMenu";
 import DropDownMenuPrimary from "./DropdownPrimary";
 import { useMediaQuery } from "@mui/material";
 
-
 interface pageheaderproperties {
   screenwidth: number;
   screenheight: number;
@@ -36,14 +35,12 @@ let smallmenuGaps = [];
 let Lhome: string = "";
 
 const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight, assetpath, hidden }) => {
-  // const navigate = Router.useNavigate(); 
   const [height, setHeight] = React.useState(screenheight);
   const [width, setWidth] = React.useState(screenwidth);
   const [updatemenu, setUpdateMenu] = React.useState(0);
   const [updatesmallmenu, setUpdateSmallMenu] = React.useState(0);
   const menuOptions = ["Home", "Design Gallery", "Modular Kitchen", "Wardrobe", "Bedroom", "Living Room", "Bath Room", "Space Saving Furniture", "Home Office", "Others"];
   const smallMenuOptions = ["Partner With LHome", "Refer and Earn", "Join Us", "Citiea", "Visit Us", "Customer Support"];
-  const smallmenuOptions = ['']
   const [menuoptionsstring, setMenuOptionsString] = React.useState("");
   const [smallmenuoptionsstring, setSmallMenuOptionsString] = React.useState("");
   const [citiesdropdown, setCitiesDropDown] = React.useState(false);
@@ -59,10 +56,10 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
     function getsettings() {
       let api = simpleCallInitAPI(`${assetpath}/assets/settings.json`);
       api.then((data: any) => {
-        menuoptions = data.data.settings.menuoptions
+        menuoptions = data.data.settings.menuoptions;
         smallmenuoptions = data.data.settings.smallmenuoptions;
         cities = data.data.settings.cities;
-        other = data.data.settings.other
+        other = data.data.settings.other;
         menuGaps = data.data.settings.menuGaps;
         smallmenuGaps = data.data.settings.smallmenuGaps;
         Lhome = data.data.settings.logo;
@@ -77,21 +74,19 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
         menuoptions.forEach((option: any, index: number) => {
           if (residuewidth + Number(menuGaps[index]) > totalwidth) {
             newoptions.push(option);
-          } else {
           }
           residuewidth += Number(menuGaps[index]);
         });
         menuoptions = newoptions;
         menuoptionsstringed = menuoptions.join(",") + ',';
         setMenuOptionsString(menuoptionsstringed);
-        setUpdateMenu(Math.random())
+        setUpdateMenu(Math.random());
         totalwidth = screenwidth - (screenwidth * .6) - 100;
         residuewidth = 0;
         newoptions = [];
         smallmenuoptions.forEach((option: any, index: number) => {
           if (residuewidth + Number(smallmenuGaps[index]) > totalwidth) {
             newoptions.push(option);
-          } else {
           }
           residuewidth += Number(smallmenuGaps[index]);
         });
@@ -144,7 +139,7 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
           router.push('/homeoffice');
           break;
         case 'Customer stories':
-          router.push('/customstories')
+          router.push('/customstories');
           break;
         case 'Unknown':
           router.push('/unknow');
@@ -152,20 +147,15 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
         case 'Partner With LHome':
           router.push('/partnership');
           break;
-
         case 'Refer and Earn':
           router.push('/referandearn');
           break;
-
         case 'Join Us':
           router.push('/joinuspage');
           break;
-
-
         case 'Visit Us':
           router.push('/visitus');
           break;
-
         case 'Customer Support':
           router.push('/CustomersupportPage');
           break;
@@ -190,13 +180,11 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
   const handleLogout = () => {
     Cookies.remove('token');
     Cookies.remove('userId');
-    setAuth(false)
+    setAuth(false);
   }
 
-  //useMediaQuery
   const isSmallScreen = useMediaQuery("(max-width: 554px)");
   const isMediumScreen = useMediaQuery("(min-width: 555px) and (max-width: 1257px)");
-
   const isSmallScreen2 = useMediaQuery("(max-width: 450px)");
 
   return (
@@ -205,8 +193,7 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
         <div className={hidden ? `${css.headerHidden}` : `${css.headerOuter}`}>
           <div className={hidden ? "flex justify-center" : css.headerLeft}>
             <div id="logo" className={`${css.lhomelogoholder}`}>
-              <div className={isSmallScreen2? `${css.lhomelogo}`:''}>
-                {/* <div ref={logo} className={`${css.lhomelogomask}`} /> */}
+              <div className={isSmallScreen2 ? `${css.lhomelogo}` : ''}>
                 <img src={homeLogo} alt='homeLogo' key={"UniqueKey"} />
               </div>
             </div>
@@ -217,15 +204,17 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
               <div className={css.smallMenuButtons}>
                 <div className={css.emptyBand}>
                   {smallmenuoptionsstring.indexOf("Partner With LHome,") < 0 ?
-                    <Link href={{ pathname: '/partnership' }}><div className={`${css.smallMenuBand} ${css.customWidthpx_14}`}>
-                      Partner With LHome
-                    </div>
+                    <Link href={{ pathname: '/partnership' }}>
+                      <div className={`${css.smallMenuBand} ${css.customWidthpx_14}`}>
+                        Partner With LHome
+                      </div>
                     </Link>
                     : ""}
                   {smallmenuoptionsstring.indexOf("Refer and Earn,") < 0 ?
-                    <Link href={{ pathname: '/referandearn' }}> <div className={`${css.smallMenuBand} ${css.customWidthpx_14}`}>
-                      Refer and Earn
-                    </div>
+                    <Link href={{ pathname: '/referandearn' }}>
+                      <div className={`${css.smallMenuBand} ${css.customWidthpx_14}`}>
+                        Refer and Earn
+                      </div>
                     </Link>
                     : ''}
                   {smallmenuoptionsstring.indexOf("Join Us,") < 0 ?
@@ -251,13 +240,12 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
                     </div>
                     : ''}
                   {smallmenuoptionsstring.indexOf("Visit Us,") < 0 ?
-                    <Link href={{ pathname: "/visitus" }} > <div className={`${css.smallMenuBand} ${css.customWidthpx_14}`} >
-
-                      Visit Us
-                    </div>
+                    <Link href={{ pathname: "/visitus" }}>
+                      <div className={`${css.smallMenuBand} ${css.customWidthpx_14}`}>
+                        Visit Us
+                      </div>
                     </Link>
                     : ''}
-
 
                   {smallmenuoptionsstring.indexOf(",Customer Support") < 0 ?
                     <Link href={{ pathname: "/CustomersupportPage" }} style={{ display: 'flex' }}>
@@ -292,59 +280,68 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
               <div className={css.largeMenuButtons} id="largeoptions">
                 <div className={css.menuHolder}>
                   {menuoptionsstring.indexOf("Home,") < 3 ?
-                    <Link href={{ pathname: '/' }}><div id="home" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                      Home</div>
+                    <Link href={{ pathname: '/' }}>
+                      <div id="home" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
+                        Home
+                      </div>
                     </Link>
-                    : ''
-                  }
+                    : ''}
                   {menuoptionsstring.indexOf("Design Gallery,") < 3 ?
-                    <Link href={{ pathname: '/designgallery' }}><div id="designgallery" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                      Design Gallery</div>
+                    <Link href={{ pathname: '/designgallery' }}>
+                      <div id="designgallery" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
+                        Design Gallery
+                      </div>
                     </Link>
-                    : ''
-                  }
+                    : ''}
                   {menuoptionsstring.indexOf("Modular Kitchen,") < 3 ?
-                    <Link href={{ pathname: '/modularkitchen' }}><div id="modularkitchen" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                      Modular Kitchen</div>
+                    <Link href={{ pathname: '/modularkitchen' }}>
+                      <div id="modularkitchen" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
+                        Modular Kitchen
+                      </div>
                     </Link>
-                    : ''
-                  }
+                    : ''}
                   {menuoptionsstring.indexOf("Wardrobe,") < 0 ?
-                    <Link href={{ pathname: '/wardrobe' }}><div id="wardrobe" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                      Wardrobe</div>
+                    <Link href={{ pathname: '/wardrobe' }}>
+                      <div id="wardrobe" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
+                        Wardrobe
+                      </div>
                     </Link>
-                    : ''
-                  }
+                    : ''}
                   {menuoptionsstring.indexOf("Bedroom,") < 0 ?
-                    <Link href={{ pathname: '/bedroom' }}><div id="bedroom" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                      Bedroom</div>
+                    <Link href={{ pathname: '/bedroom' }}>
+                      <div id="bedroom" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
+                        Bedroom
+                      </div>
                     </Link>
-                    : ''
-                  }
+                    : ''}
                   {menuoptionsstring.indexOf("Living Room,") < 0 ?
-                    <Link href={{ pathname: '/livingroom' }}><div id="livingroom" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                      Living Room</div>
+                    <Link href={{ pathname: '/livingroom' }}>
+                      <div id="livingroom" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
+                        Living Room
+                      </div>
                     </Link>
-                    : ''
-                  }
+                    : ''}
                   {menuoptionsstring.indexOf("Bath Room,") < 0 ?
-                    <Link href={{ pathname: '/bathroom' }}> <div id="bathroom" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                      Bath Room</div>
+                    <Link href={{ pathname: '/bathroom' }}>
+                      <div id="bathroom" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
+                        Bath Room
+                      </div>
                     </Link>
-                    : ''
-                  }
+                    : ''}
                   {menuoptionsstring.indexOf("Space Saving Furniture,") < 0 ?
-                    <Link href={{ pathname: '/spacesavingfurniture' }}><div id="spacesavingfurniture" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                      Space Saving Furniture</div>
+                    <Link href={{ pathname: '/spacesavingfurniture' }}>
+                      <div id="spacesavingfurniture" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
+                        Space Saving Furniture
+                      </div>
                     </Link>
-                    : ''
-                  }
+                    : ''}
                   {menuoptionsstring.indexOf("Home Office,") < 0 ?
-                    <Link href={{ pathname: '/homeoffice' }}> <div id="homeoffice" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                      Home Office</div>
+                    <Link href={{ pathname: '/homeoffice' }}>
+                      <div id="homeoffice" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
+                        Home Office
+                      </div>
                     </Link>
-                    : ''
-                  }
+                    : ''}
                   {menuoptionsstring.indexOf("Customer stories,") < 0 ?
                     <div id="others" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_6} + d-flex`}>
                       <div>Other</div>
@@ -355,106 +352,14 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
                         }
                       </div>
                     </div>
-                    : ''
-                  }
-<<<<<<< HEAD
-                </div>
-                </div>
-                <div className={css.largeMenuButtons} id="largeoptions">
-                  <div className={css.menuHolder}>
-                    {menuoptionsstring.indexOf("Home,") < 0 ?
-                      <Link href={{ pathname: '/' }}><div id="home" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                        Home</div>
-                      </Link>
-                      : ''
-                    }
-                    {menuoptionsstring.indexOf("Design Gallery,") < 0 ?
-                      <Link href={{ pathname: '/designgallery' }}><div id="designgallery" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                        Design Gallery</div>
-                      </Link>
-                      : ''
-                    }
-                    {menuoptionsstring.indexOf("Modular Kitchen,") < 0 ?
-                      <Link href={{ pathname: '/modularkitchen' }}><div id="modularkitchen" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                        Modular Kitchen</div>
-                      </Link>
-                      : ''
-                    }
-                    {menuoptionsstring.indexOf("Wardrobe,") < 0 ?
-                      <Link href={{ pathname: '/wardrobe' }}><div id="wardrobe" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                        Wardrobe</div>
-                      </Link>
-                      : ''
-                    }
-                    {menuoptionsstring.indexOf("Bedroom,") < 0 ?
-                      <Link href={{ pathname: '/bedroom' }}><div id="bedroom" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                        Bedroom</div>
-                      </Link>
-                      : ''
-                    }
-                    {menuoptionsstring.indexOf("Living Room,") < 0 ?
-                      <Link href={{ pathname: '/livingroom' }}><div id="livingroom" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                        Living Room</div>
-                      </Link>
-                      : ''
-                    }
-                    {menuoptionsstring.indexOf("Bath Room,") < 0 ?
-                      <Link href={{ pathname: '/bathroom' }}> <div id="bathroom" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                        Bath Room</div>
-                      </Link>
-                      : ''
-                    }
-                    {menuoptionsstring.indexOf("Space Saving Furniture,") < 0 ?
-                      <Link href={{ pathname: '/spacesavingfurniture' }}><div id="spacesavingfurniture" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                        Space Saving Furniture</div>
-                      </Link>
-                      : ''
-                    }
-                    {menuoptionsstring.indexOf("Home Office,") < 0 ?
-                      <Link href={{ pathname: '/Designjournal' }}> <div id="homeoffice" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                        Home Office</div>
-                      </Link>
-                      : ''
-                    }
-                    {menuoptionsstring.indexOf("Customer stories,") < 0 ?
-                      <div id="others" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_6} + d-flex`}>
-                        <div>Other</div>
-                        <div className={css.otherDropDown}>
-                          {citiesdropdown ?
-                            <OtherDropDownMenu options={other} positionmove={"1px"} />
-                            : ''
-                          }
-                        </div>
-                      </div>
-                      : ''
-                    }
-                    {menuoptions.length > 0 ?
-                      <div id="dropdownoptions" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_6}`}>
-                        <DropDownMenu updatemenu={updatemenu} fontclass={""} options={menuoptions} />
-                      </div>
-                      : ''
-                    }
-                   {isAuth ?<button className={css.userLoginRegister} onClick={handleLogout}> Logout </button> :  <div className={css.userLoginRegisterHolder}>
-                      <button className={css.userLoginRegister} onClick={handlePopup}>
-                        Login / Register
-                      </button>
-                      <Modal show={show} onHide={handleClose} className={css.Modal_Popup}>
-                        <Modal.Header  >
-                          <AiFillCloseCircle onClick={handleClose} />
-                        </Modal.Header>
-                        <LoginRegisterPage setShow={setShow}/>
-                      </Modal>
-=======
+                    : ''}
                   {menuoptions.length > 0 ? (
                     <div id="dropdownOptions" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_6}`}>
                       <DropDownMenu
                         options={menuoptions}
-                      
                       />
                     </div>
                   ) : null}
->>>>>>> 82c73e7a65f9230ac517c0035314c1c7904fbcdc
-
 
                   {isAuth ? <button className={css.userLoginRegister} onClick={handleLogout}> Logout </button> : <div className={css.userLoginRegisterHolder}>
                     <button className={css.userLoginRegister} onClick={handlePopup}>
@@ -467,7 +372,6 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
                       <LoginRegisterPage setShow={setShow} />
                     </Modal>
                   </div>}
-                  
                 </div>
               </div>
             </div>)}

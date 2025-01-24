@@ -55,7 +55,7 @@ interface WhyLhomeproperties {
                         <hr className={css.verticaldivider} />   
                         <hr className={css.verticaldivider2} />   
 
-                        <Grid item md={3.5} sm={6} xs={12} direction='column'   justifyContent="space-between" rowSpacing={2}
+                        <Grid item md={3.5} sm={6} xs={12} container direction='column'   justifyContent="space-between" rowSpacing={2}
 
                         >
                            <div className={css.title}>
