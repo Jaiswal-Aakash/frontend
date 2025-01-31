@@ -2,7 +2,7 @@
   "Row1": [
     {
       "image": "/assets/UtypeKitchen/Ushaped1.png",
-      "name": "Timeless Coastal Chic Kitchen Design",
+      "name": "Timeless Coastal Chic Kitchen",
       "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
@@ -20,7 +20,7 @@
     },
     {
       "image": "/assets/UtypeKitchen/Ushaped3.jpg",
-      "name": "Minimalist White & Black Chick Fusion Modern Kitchen Design",
+      "name": "Minimalist White & Black Kitchen",
       "size": "Size | 13' X 12'",
       "type": "Shape - U-Shaped ",
       "likeIcon": "/assets/icons/wishlist.png",
@@ -39,7 +39,7 @@
     },
     {
       "image": "/assets/UtypeKitchen/Ushaped4.jpg",
-      "name": "Pure Serenity Soft White Modern Kitchen Design",
+      "name": "Pure Serenity Soft White Modern Kitchen",
       "size": "Size | 13' X 12'",
       "type": "Shape - U-Shaped ",
       "likeIcon": "/assets/icons/wishlist.png",
@@ -147,7 +147,7 @@
     },
     {
       "image": "/assets/UtypeKitchen/Ushaped15.jpg",
-      "name": "Bold & Beautiful Black Kitchen of Your Dreams",
+      "name": "Bold & Beautiful Black Kitchen",
       "size": "Size | 13' X 12'",
       "type": "Shape - U-Shaped ",
       "likeIcon": "/assets/icons/wishlist.png",
