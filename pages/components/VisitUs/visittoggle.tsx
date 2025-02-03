@@ -33,7 +33,7 @@ const VisitToggle = () => {
           className={act(`${css.buttonStatus} ${buttonStatus === "rajapalayam" ? css.active : ""}`)}
           onClick={() => setButtonStatus("rajapalayam")}
         >
-          <span className={css.visitus_button_content}>Rajapalayam</span>
+          {/* <span className={css.visitus_button_content}>Rajapalayam</span> */}
 
         </button>
       </div>

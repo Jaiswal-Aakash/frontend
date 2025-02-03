@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import css from "./referbaner.module.scss";
 import * as config from "../../../next.config.js";
 import Image from "next/image";
-// import banner from "../../../public/assets/referandearn/referearn.png"
+import banner from "../../../public/assets/referandearn/referearn.png"
 import { simpleCallInitAPI } from '../../../services/ApicallInit';
 import Toggle from "./refertoggle";
 // import SwitchToggle from "./referearnform";
@@ -35,7 +35,7 @@ const ReferBaner: React.FC = () => {
 
                             <div key={`${index}_${index}`} >
                                 <div className={css.referearn_imagess }>
-                                    <img src={datas.referearnbaner2} className={css.re_banner_img} alt="bannerImage" />
+                                    <img src={datas.referearnbaner1} className={css.re_banner_img} alt="bannerImage" />
                                     {/* <img src={datas.referearnbaner1 || "/assets/referandearn/referearn.png"} alt="bannerImage" className={css.referearn} width={500} height={500} /> */}
                                     {/* <img src={datas.referearnbaner2} alt="bannerImage" className={css.referman2} width={500} height={500} /> */}
                                 </div>
