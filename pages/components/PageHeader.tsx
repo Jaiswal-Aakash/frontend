@@ -39,7 +39,7 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
   const [width, setWidth] = React.useState(screenwidth);
   const [updatemenu, setUpdateMenu] = React.useState(0);
   const [updatesmallmenu, setUpdateSmallMenu] = React.useState(0);
-  const menuOptions = ["Home", "Design Gallery", "Modular Kitchen", "Wardrobe", "Bedroom", "Living Room", "Bath Room", "Space Saving Furniture", "Home Office", "Others"];
+  const menuOptions = ["Home", "Design Gallery", "Modular Kitchen", "Wardrobe", "Bedroom", "Living Room", "Bathroom", "Space Saving Furniture", "Home Office", "Others"];
   const smallMenuOptions = ["Partner With LHome", "Refer and Earn", "Join Us", "Citiea", "Visit Us", "Customer Support"];
   const [menuoptionsstring, setMenuOptionsString] = React.useState("");
   const [smallmenuoptionsstring, setSmallMenuOptionsString] = React.useState("");
@@ -129,7 +129,7 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
         case 'Living Room':
           router.push('/livingroom');
           break;
-        case 'Bath Room':
+        case 'Bathroom':
           router.push('/bathroom');
           break;
         case 'Space Saving Furniture':
@@ -321,10 +321,10 @@ const PageHeader: React.FC<pageheaderproperties> = ({ screenwidth, screenheight,
                       </div>
                     </Link>
                     : ''}
-                  {menuoptionsstring.indexOf("Bath Room,") < 0 ?
+                  {menuoptionsstring.indexOf("Bathroom,") < 0 ?
                     <Link href={{ pathname: '/bathroom' }}>
                       <div id="bathroom" rel="largeoptions" className={`${css.largeMenuBand} ${css.customWidthpx_14}`}>
-                        Bath Room
+                        Bathroom
                       </div>
                     </Link>
                     : ''}
