@@ -29,13 +29,13 @@ const DesignGallery: React.FC = () => {
       case 'Wardrobe':
         router.push('/wardrobe')
         break;
-      case 'Bed Room':
+      case 'Bedroom':
         router.push('/bedroom')
         break;
       case 'Living Room':
         router.push('/livingroom')
         break;
-      case 'Bath Room':
+      case 'Bathroom':
         router.push('/bathroom')
         break;
       case 'Home Office':
