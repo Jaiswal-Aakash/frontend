@@ -40,7 +40,7 @@ const StylishHomeProducts: React.FC = () => {
                 lc.image = `${assetpath}${datas.image}`;
                 lc.name = datas.name;
                 lc.subname = datas.subname;
-                lc.size = datas.size;
+                // lc.size = datas.size;
                 lc.para = datas.para
                 ltrendings.push(lc);
             });
