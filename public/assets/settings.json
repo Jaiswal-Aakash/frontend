@@ -1265,7 +1265,7 @@
       128
     ],
     "sliderimages": [
-      "/assets/sliderimages/image-1.jpg",
+      "/assets/sliderimages/image-5.jpg",
       "/assets/sliderimages/image-2.jpg",
       "/assets/sliderimages/image-3.jpg"
     ],
@@ -1308,148 +1308,169 @@
       },
       {
         "image": "/assets/listingimages/wardrobe.jpg",
-        "category": "Warddrobe",
+        "category": "Wardrobe",
         "text": "100+ designs"
       },
       {
         "image": "/assets/listingimages/bedroom.jpg",
-        "category": "Bed Room",
+        "category": "Bedroom",
         "text": "100+ designs"
       }
     ],
     "trendings": [
       {
-        "image": "/assets/listingimages/trendings/officeimages/officeimage-1.jpg",
-        "name": "Minimalist Desk Setup",
+        "image": "/assets/listingimages/trendings/officeimages/homeoff1.jpg",
+        "name": "Minmalistic Work Corner",
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
         "shareIcon": "/assets/icons/shareicon.png",
         "type":"Home Office ",
-        "para":"This workspace features a sleek, minimalist desk with a simple chair and a wall-mounted floating shelf above it. The floating shelf provides storage without occupying floor space, keeping the desk area clutter-free. Ideal for small home offices, this setup maximizes vertical space and maintains an open, airy feel with light decor and neutral colours."
+        "para":"Step into a world of serenity with this white themed home  office. A minimalist desk, sleek chair, and soft lighting create a bright, calming space perfect for focused productivity."
       
       },
       {
-        "image": "/assets/listingimages/trendings/officeimages/officeimage-2.jpg",
-        "name": "Modern Black and White Space",
+        "image": "/assets/listingimages/trendings/officeimages/homeoff5.jpg",
+        "name": "Bright Home Office Accent", 
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
         "shareIcon": "/assets/icons/shareicon.png",
         "type":"Home Office ",
-        "para":"This stylish home office incorporates a sleek white desk with black shelves mounted above. The floating shelves offer accessible storage for office supplies and decor, creating an organized, efficient workspace. The combination of black and white with minimalistic accents makes it perfect for those who prefer a modern, streamlined home office"
+        "para":"Embrace a vibrant workspace with a modern theme featuring an orange accent wall, sleek white and black furniture, and chick black tiles. Liven up the space with lush plants and a modern stylish lamp for a perfect blend of energy and elegance."
       
       },
       {
-        "image": "/assets/listingimages/trendings/officeimages/officeimage-3.jpg",
-        "name": "The Beige Full-Length Wardrobe",
+        "image": "/assets/listingimages/trendings/officeimages/homeoff4.jpg",
+        "name": "Peaceful Home Office Design",
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
         "shareIcon": "/assets/icons/shareicon.png",
         "type":"Home Office ",
-        "para":"Elevate your room with this stunning large beige full-length wardrobe, With generous storage forclothing and accessories. Its chic design features a sleek lower handle, offering both ease of use and an elegant touch. Embrace chic versatility with this beautiful wardrobe that’s sure to impress."
+        "para":"Discover elegance in your workspace with a beautifully designed desk and a vibrant chair, complemented by a sleek floor lamp. Modern furniture, lush plants, and a captivating painting create a peaceful and inspiring environment."
       
       },
       {
-        "image": "/assets/listingimages/trendings/officeimages/officeimage-1.jpg",
-        "name": "Minimalist Desk Setup",
+        "image": "/assets/listingimages/trendings/officeimages/homeoff1.jpg",
+        "name": "Minmalistic Work Corner",
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
         "shareIcon": "/assets/icons/shareicon.png",
         "type":"Home Office ",
-        "para":"This workspace features a sleek, minimalist desk with a simple chair and a wall-mounted floating shelf above it. The floating shelf provides storage without occupying floor space, keeping the desk area clutter-free. Ideal for small home offices, this setup maximizes vertical space and maintains an open, airy feel with light decor and neutral colours."
+        "para":"Step into a world of serenity with this white themed home  office. A minimalist desk, sleek chair, and soft lighting create a bright, calming space perfect for focused productivity."
+      
+      },
+     
+      {
+        "image": "/assets/listingimages/trendings/officeimages/homeoff3.jpg",
+        "name": "Blissful Sleek Home Office Design", 
+        "subname": "Trendings",
+        "size": "Size | 13' X 12'",
+        "shareIcon": "/assets/icons/shareicon.png",
+        "type":"Home Office ",
+        "para":" Harmonious workspace with a modern wooden desk paired with a sleek, stylish chair. Open shelving on either side elegantly displays showpieces and books, while a lush green plant adds a refreshing touch to complete the look. "
       
       },
       {
-        "image": "/assets/listingimages/trendings/officeimages/officeimage-2.jpg",
-        "name": "Modern Black and White Space",
+        "image": "/assets/listingimages/trendings/officeimages/homeoff4.jpg",
+        "name": "Peaceful Home Office Design",
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
         "shareIcon": "/assets/icons/shareicon.png",
         "type":"Home Office ",
-        "para":"This stylish home office incorporates a sleek white desk with black shelves mounted above. The floating shelves offer accessible storage for office supplies and decor, creating an organized, efficient workspace. The combination of black and white with minimalistic accents makes it perfect for those who prefer a modern, streamlined home office"
+        "para":"Discover elegance in your workspace with a beautifully designed desk and a vibrant chair, complemented by a sleek floor lamp. Modern furniture, lush plants, and a captivating painting create a peaceful and inspiring environment."
+      
+      },
+      {
+        "image": "/assets/listingimages/trendings/officeimages/homeoff2.jpg",
+        "name": "Chic Tranquil Home Design",
+        "subname": "Trendings",
+        "size": "Size | 13' X 12'",
+        "shareIcon": "/assets/icons/shareicon.png",
+        "type":"Home Office ",
+        "para":"Transform your office with a sleek black desk and minimalistic open black furniture, set against a striking dark wall with olive accents. A vibrant chair, black and white rug, and stylish table lamp bring a touch of sophistication and energy to the modern workspace."
       
       }
     ],
     "toppicks": [
       {
-        "image": "/assets/listingimages/toppicks/kitchenimage-1.jpg",
-        "name": "Luxurious Marble Elegance Kitchen",
+        "image": "/assets/listingimages/toppicks/Ushaped2.jpg",
+        "name": "Dark Harmony Modern Kitchen", 
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
-        "para":"Step into timeless sophistication with this modular kitchen, where sleek white cabinetry pairs seamlessly with stunning marble surfaces. The bold veined patterns exude opulence, while the gold accents and integrated lighting enhance the ambiance. Perfectly balancing beauty b and function, this space invites culinary creativity with elegance and poise."
+        "para":"Step into a stylish kitchen where black walls and purple furniture create a striking contrast, complemented by sleek wooden chairs and tables. Studio lights and wooden look tiles complete the design, balancing everything out. "
 
       },
       {
-        "image": "/assets/listingimages/toppicks/kitchenimage-2.jpg",
-        "name": "Timeless Coastal Chic Kitchen",
+        "image": "/assets/listingimages/toppicks/Ushaped3.jpg",
+        "name": "Minimalist White & Black Kitchen",
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
-        "para":"Experience timeless elegance in a small wooden kitchen with meticulously crafted drawers and a sophisticated design. The three glass cabinets elevate the space, adding a touch of refinement and showcasing your kitchenware beautifully."
+        "para":" Discover the sophistication of a full white kitchen, enhanced by a sleek black slab and matching microwave and oven. The glass window adds a touch of modern simplicity, creating a space that’s both elegant and effortlessly chic."
 
       },
       {
-        "image": "/assets/listingimages/toppicks/kitchenimage-3.jpg",
-        "name": "Bold & Beautiful Black Kitchen",
+        "image": "/assets/listingimages/toppicks/Ushaped4.jpg",
+        "name": "White Modern Kitchen Design",
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
-        "para":"This sleek black modular kitchen, paired with white slab and subtly shaded white tiles, oozes sophistication. The striking black furniture creates a modern vibe that will make you want to cook in style and show off your space."
+        "para":"Embrace understated elegance with this simple white kitchen with gray metal handles for drawers that seamlessly complement the microwave and oven. A sleek knife holder on the wall and a single panel top shelf provide practical and stylish space for showcasing crockery and cherished pieces. "
 
       },
       {
-        "image": "/assets/listingimages/toppicks/kitchenimage-1.jpg",
-        "name": "Luxurious Marble Elegance Kitchen",
+        "image": "/assets/listingimages/toppicks/Ushaped5.jpg",
+        "name": "Classic Modern Kitchen Design", 
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
-        "para":"Step into timeless sophistication with this modular kitchen, where sleek white cabinetry pairs seamlessly with stunning marble surfaces. The bold veined patterns exude opulence, while the gold accents and integrated lighting enhance the ambiance. Perfectly balancing beauty b and function, this space invites culinary creativity with elegance and poise."
+        "para":"Experience sleek sophistication in this white open kitchen, with lots of drawers to fit all your things perfectly and a striking black center table with storage having two stylish pendant lights hanging above it, adding a touch of modern elegance to this functional and chic space."
 
       },
       {
-        "image": "/assets/listingimages/toppicks/kitchenimage-2.jpg",
-        "name": "Timeless Coastal Chic Kitchen",
+        "image": "/assets/listingimages/toppicks/Ushaped6.jpg",
+        "name": "Lavender Luxekitchen",
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
-        "para":"Experience timeless elegance in a small wooden kitchen with meticulously crafted drawers and a sophisticated design. The three glass cabinets elevate the space, adding a touch of refinement and showcasing your kitchenware beautifully."
+        "para":"Elevate your cooking experience with this stunning lavender kitchen, featuring sleek brownwooden texture tiles, a white slab, and a chic modern chair with it, all beautifully lit by contemporary lighting."
 
       }
     ],
     "warddrobefly": [
       {
-        "image": "/assets/listingimages/wardrobes/wardrobe-1.jpg",
-        "name": "Classic Elegance Wardrobe",
+        "image": "/assets/listingimages/wardrobes/straightwar1.jpg",
+        "name": "Gray Glimmer Wardrobe Design", 
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
-        "para":"This basic wardrobe brings a timeless charm to any room, enhanced by sleek silver handles that add a subtle, modern touch. Its minimalist design prioritises functionality while maintaining a refined appearance. Ideal for versatile storage, this wardrobe is both practical and elegantly understated"
+        "para":"Embrace sleek sophistication with gray glimmer wardrobe, where modern design meets optimal organization. It’s glossy finish and spacious compartments offer both style and functionality for your home."
 
       },
       {
-        "image": "/assets/listingimages/wardrobes/wardrobe-2.jpg",
-        "name": "Midnight Luxe Wardrobe",
+        "image": "/assets/listingimages/wardrobes/straightwar2.jpg",
+        "name": "Midnight Fusion Wardrobe Design", 
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
-        "para":"Bright and inviting, the vibrant colour palette in this small modular kitchen exudes peppy sunshine and good cheer. Bright chrome yellow cabinets offer a happy contrast to pale cream, the duo coming together in the kitchen cupboard design to uplift and elevate the overall vibe."
+        "para":"Discover the perfect blend of modern luxury with a  midnight reveal wardrobe, featuring a sleek see through black glass and beige side cupboards  with perfect space and lighting giving the expensive look paired with open wooden display. Ideal for showcasing your finest decor, this wardrobe adds a touch of elegance to any space. "
 
       },
       {
-        "image": "/assets/listingimages/wardrobes/wardrobe-3.jpg",
-        "name": "Crystal Clear Storage Sanctuary",
+        "image": "/assets/listingimages/wardrobes/straightwar3.jpg",
+        "name": "Trendy Turquoise Wardrobe Design",
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
-        "para":"This modern wardrobe showcases elegant glass sliding doors that offer a stylish view of your organised collection while keeping it protected. Inside, meticulously designed compartments provide dedicated spaces for everything. The combination of functionality and aesthetic appeal makes this wardrobe a sophisticated addition to any room."
+        "para":"A stunning piece that combines classic design with a serene turquoise hue. Perfect for adding a touch of aesthetic charm to your room."
 
       },
       {
-        "image": "/assets/listingimages/wardrobes/wardrobe-1.jpg",
-        "name": "Classic Elegance Wardrobe",
+        "image": "/assets/listingimages/wardrobes/straightwar4.jpg",
+        "name": "Modern Luxe Wardrobe Design",
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
-        "para":"This basic wardrobe brings a timeless charm to any room, enhanced by sleek silver handles that add a subtle, modern touch. Its minimalist design prioritises functionality while maintaining a refined appearance. Ideal for versatile storage, this wardrobe is both practical and elegantly understated"
+        "para":"Elevate your space with the modern luxe wardrobe, featuring a stylish open center and elegantly packed sides. Crafted with a redefined wooden texture, this wardrobe blends sophisticated design with practical luxury for a truly upscale look."
 
       },
       {
-        "image": "/assets/listingimages/wardrobes/wardrobe-2.jpg",
-        "name": "Midnight Luxe Wardrobe",
+        "image": "/assets/listingimages/wardrobes/straightwar5.jpg",
+        "name": "Crystal Luminous Glass Wardrobe",
         "subname": "Trendings",
         "size": "Size | 13' X 12'",
-        "para":"This sophisticated black wardrobe exudes elegance, featuring sleek silver handles that add a touch of luxury to its bold design. A central open compartment allows you to showcase your favourite pieces, giving the wardrobe a personalised touch. Perfect for modern interiors, this wardrobe blends style and functionality effortlessly."
+        "para":"Illuminate your space with the radiant elegance wardrobe, a sleek glass design that combines perfect lighting with ample storage. It’s chic transparency and refined style make it a stunning centerpiece for any modern interior."
 
       }
     ],

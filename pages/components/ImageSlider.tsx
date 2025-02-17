@@ -71,7 +71,6 @@ const ImageSlider: React.FC<Sliderproperties> = ({ screenwidth, screenheight, sw
       sliderimage.current.style.top = siltop;
       sliderimage.current.style.width = `${siwidth}px`;
       sliderimage.current.style.height = `${siheight+50}px`;
-     
       sliderimages.current.style.width = `${siwidth}px`;
       sliderimages.current.style.height = `${siheight+50}px`;
       sliderleft.current.style.position = "absolute";

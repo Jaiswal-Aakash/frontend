@@ -1,7 +1,7 @@
 {
     "gallery": [
         {
-            "image": "/assets/listingimages/DesignGallery/modularkitchen.png",
+            "image": "/assets/listingimages/DesignGallery/ushaped.png",
             "name": "Kitchen",
             "title": "Modular Kitchen"
         },
@@ -12,8 +12,8 @@
         },
         {
             "image": "/assets/listingimages/DesignGallery/bedroom.png",
-            "name": "Bed Room",
-            "title": "Bed Room"
+            "name": "Bedroom",
+            "title": "Bedroom"
         },
         {
             "image": "/assets/listingimages/DesignGallery/livingroom.png",
@@ -22,8 +22,8 @@
         },
         {
             "image": "/assets/listingimages/DesignGallery/bathroom.png",
-            "name": "Bath Room",
-            "title": "Bath Room"
+            "name": "Bathroom",
+            "title": "Bathroom"
         },
         {
             "image": "/assets/listingimages/DesignGallery/homeoffice.png",

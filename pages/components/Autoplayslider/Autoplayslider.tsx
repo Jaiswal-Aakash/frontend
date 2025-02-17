@@ -28,7 +28,7 @@ const Autoplay: React.FC<playproperties> = ({ living }) => {
       url: "/assets/bottomcarousel/Maskgroup.svg",
       url2: "/assets/icons/play.png",
       heading: "sethu and Family",
-      house: "2BHK",
+      house: "3BHK",
       para: "We’re really happy with the materials that were used and the timeline for the project.The reaction we got from our friends when they first saw our place was priceless."
 
     },
@@ -36,7 +36,7 @@ const Autoplay: React.FC<playproperties> = ({ living }) => {
       url: "/assets/bottomcarousel/Maskgroup.svg",
       url2: "/assets/icons/play.png",
       heading: "John and Family",
-      house: "2BHK",
+      house: "5BHK",
       para: "We’re really happy with the materials that were used and the timeline for the project.The reaction we got from our friends when they first saw our place was priceless."
 
     },
@@ -44,7 +44,7 @@ const Autoplay: React.FC<playproperties> = ({ living }) => {
       url: "/assets/bottomcarousel/Maskgroup.svg",
       url2: "/assets/icons/play.png",
       heading: "Prabhu and Family",
-      house: "2BHK",
+      house: "4BHK",
       para: "We’re really happy with the materials that were used and the timeline for the project.The reaction we got from our friends when they first saw our place was priceless."
 
     },
@@ -52,7 +52,7 @@ const Autoplay: React.FC<playproperties> = ({ living }) => {
       url: "/assets/bottomcarousel/Maskgroup.svg",
       url2: "/assets/icons/play.png",
       heading: "Kali and Family",
-      house: "2BHK",
+      house: "3BHK",
       para: "We’re really happy with the materials that were used and the timeline for the project.The reaction we got from our friends when they first saw our place was priceless."
 
     },
@@ -60,7 +60,7 @@ const Autoplay: React.FC<playproperties> = ({ living }) => {
       url: "/assets/bottomcarousel/Maskgroup.svg",
       url2: "/assets/icons/play.png",
       heading: "Selva and Family",
-      house: "2BHK",
+      house: "5BHK",
       para: "We’re really happy with the materials that were used and the timeline for the project.The reaction we got from our friends when they first saw our place was priceless."
 
     },
