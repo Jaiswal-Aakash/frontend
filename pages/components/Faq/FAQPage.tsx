@@ -18,7 +18,7 @@ const FAQPage: React.FC = () => {
         let sectionOne = [];
         let process = [];
 
-        if (window.location.pathname === '/designGallery/') {
+        if (window.location.pathname === '/designgallery/') {
           process = data.data.FAQs.designGallery;
         } 
         else if (window.location.pathname === '/modularkitchen/') {

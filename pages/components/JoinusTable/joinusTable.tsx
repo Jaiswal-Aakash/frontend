@@ -1,32 +1,31 @@
+// joinusTable.tsx
 import * as React from 'react';
 import css from "./joinusTable.module.scss";
-import * as config from "../../../next.config.js";
 import { simpleCallInitAPI } from '../../../services/ApicallInit';
 import { MDBDataTable } from 'mdbreact';
 import { useRouter } from "next/router";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 
+import useJobData from '../../../public/assets/useJobData';
 import CustomHeaderWithDropdown from './CustomHeaderWithDropdown';
 
 const JoinusTable: React.FC = () => {
+  const jobData = useJobData();
+
   const [JoinusData, setJoinusData] = React.useState([]);
   const [selectedRole, setSelectedRole] = React.useState<string | null>(null);
   const [selectedLocation, setSelectedLocation] = React.useState<string | null>(null);
   const [selectedDepartment, setSelectedDepartment] = React.useState<string | null>(null);
   const [filteredJoinusData, setFilteredJoinusData] = React.useState([]);
-  const perPage=10
-
-  let assetpath = config.assetPrefix ? `${config.assetPrefix}` : ``;
-
+  const perPage = 10;
 
   React.useEffect(() => {
-    let api = simpleCallInitAPI(`${assetpath}/assets/joinus.json`);
-    api.then((data: any) => {
-      setJoinusData(data.data.joinUs);
-    });
-  }, [assetpath]);
 
+    if (!jobData || !jobData.joinUs) return;
+
+    setJoinusData(jobData.joinUs);
+  }, [jobData]);
 
   React.useEffect(() => {
     const filterData = () => {
@@ -50,18 +49,17 @@ const JoinusTable: React.FC = () => {
     const filteredJoinusData = filterData();
     setFilteredJoinusData(filteredJoinusData);
   }, [selectedRole, selectedLocation, selectedDepartment, JoinusData]);
-  const router = useRouter(); 
+
+  const router = useRouter();
   const handleRowClick = (row) => {
     const arrdata = [row];
     const url = `${window.location.origin}/JoinOfferPage?jobDetails=${encodeURIComponent(JSON.stringify(arrdata))}`;
     router.push(url);
-  }
-  
+  };
+
   const totalPages = Math.ceil(filteredJoinusData.length / perPage);
 
-
-
-  setTimeout(() => {
+    setTimeout(() => {
     const customActivePageStyle = document.querySelector('.pagination .page-item.active .page-link') as HTMLElement;
     customActivePageStyle.style.color = 'red';
   }, 3000)
@@ -74,7 +72,6 @@ const JoinusTable: React.FC = () => {
       const set = nodeListArray.slice(i, i + 3);
       sets.push(set);
     }
-    
     function resetStyles() {
       sets.forEach((otherSet) => {
         otherSet.forEach((otherElement) => {
@@ -83,7 +80,6 @@ const JoinusTable: React.FC = () => {
         });
       });
     }
-
     sets.forEach((set, index) => {
       set.forEach((element) => {
         element.addEventListener('mouseover', () => {
@@ -102,13 +98,12 @@ const JoinusTable: React.FC = () => {
     });
 }, 3000);
 
-  const srOnlySpan = document.querySelector('.pagination .page-item.active .page-link .sr-only') as HTMLElement;
+ const srOnlySpan = document.querySelector('.pagination .page-item.active .page-link .sr-only') as HTMLElement;
   if (srOnlySpan) {
     srOnlySpan.textContent = '';
   }
 
-
-  const data: any = {
+const data: any = {
     columns: [
       {
         label: (
@@ -158,15 +153,36 @@ const JoinusTable: React.FC = () => {
         <div className={css.open_job_heading}><h3>{JoinusData.length} Open jobs</h3></div>
         <MDBDataTable
           hover={true} data={data}
+          // hover={true} data={{
+          //   columns: [
+          //     {
+          //       label: "ROLE",
+          //       field: 'role',
+          //     },
+          //     {
+          //       label: "LOCATION",
+          //       field: 'location',
+          //     },
+          //     {
+          //       label: "ALL DEPARTMENT",
+          //       field: 'department',
+          //     },
+          //   ],
+          //   rows: filteredJoinusData.map((row) => ({
+          //     role: row.role,
+          //     location: row.location,
+          //     department: row.department,
+          //     clickEvent: () => handleRowClick(row),
+          //   })),
+          // }}
           className={`${css.custom_mdbtable} custom-mdbtable`}
           info={false} responsive paging={true}
           searchLabel="Search Positions" displayEntries={false}
           paginationLabel={[<BsChevronLeft key="chevron-left" />, <BsChevronRight key="chevron-right" />]} />
-          <div className={css.totalpage}> {totalPages}</div>
+        <div className={css.totalpage}> {totalPages}</div>
       </div>
-
     </React.Fragment>
   );
-}
+};
 
 export default JoinusTable;

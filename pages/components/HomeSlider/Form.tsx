@@ -84,9 +84,11 @@ const Form: React.FC = () => {
         }
 
 
+             const url = process.env.NEXT_PUBLIC_URL;
 
         try {
-            const response = await AxiosService.post('/register', {...formData , number: Number(formData.number) , pincode: Number(formData.pincode)});
+            // const response = await AxiosService.post('/register', {...formData , number: Number(formData.number) , pincode: Number(formData.pincode)});
+            const response = await AxiosService.post(`${url}/register`, {...formData , number: Number(formData.number) , pincode: Number(formData.pincode)});
 
             if (response.status == 201) {
                 toast.success('Registration successful!');

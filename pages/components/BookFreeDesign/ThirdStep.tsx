@@ -18,7 +18,7 @@ import { format } from 'date-fns';
 const ThirdStep: React.FC<Dataprops>= ({setSelectShowRoom,setSelectDateData,setSelectTimeData}) => {
     const showroom: string[] = [
         "Coimbatore showroom",
-        "Rajapalayam showroom",
+        // "Rajapalayam showroom",
     ];
     const [selectedDate, setSelectedDate] = React.useState(null);
     const [selectedTime, setSelectedTime] = React.useState(null);

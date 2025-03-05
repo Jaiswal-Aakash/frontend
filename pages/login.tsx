@@ -6,6 +6,9 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { AxiosService } from '../services/ApiService';
 
+import { useSession, signIn } from "next-auth/react";
+import { useRouter } from "next/router";
+
 const LoginSchema = Yup.object().shape({
     number: Yup.string()
         .matches(/^\d{10}$/, 'Phone number must be 10 digits')
@@ -55,6 +58,20 @@ const Login = ({toggleForm , otpForm , setOtpForm , select , onSelect , setNumbe
         formik.setFieldValue(e.target.name, numericValue);
     };
 
+const { data: session } = useSession();
+  const router = useRouter();
+
+   const handleAdminLogin = async () => {
+  const result = await signIn("credentials", { redirect: false });
+
+  if (result?.ok) {
+    router.push("/admin/dashboard"); // Redirect only after authentication success
+  } else {
+    console.error("Authentication failed:", result?.error);
+  }
+};
+
+
     return (
         <div className={css.mainContent}>
             <h2>Login</h2>
@@ -82,6 +99,12 @@ const Login = ({toggleForm , otpForm , setOtpForm , select , onSelect , setNumbe
                 <Image src={require("../public/assets/icons/Gicon.png")} className={css.G_icon} alt='g_icon' />
             </div>
             <p style={{ marginTop: 'unset' }}>First time user? <span className={css.signupbtn} onClick={toggleForm} style={{ fontWeight: 'bold', cursor: 'pointer' }}>Sign up</span> here</p>
+            <div
+      onClick={() => router.push("/auth/login")} // Redirect to login page
+      className="cursor-pointer text-black px-4 py-2 rounded-md text-center"
+    >
+      Login as Admin
+    </div>
         </div>
     )
 }

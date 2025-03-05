@@ -44,10 +44,10 @@ const RaiseIssue = () => {
             <div className={"container "+css.containerForLG}>
                 <div className={css.Customersupportpage}>
                     <h5 className={css.head}>Reach out us</h5>
-                    <div className={css.customlogo}>
+                    {/* <div className={css.customlogo}>
                         <Image src={require("../../../public/assets/Tabimage/email.png")} alt="Email" className={css.referearn_socialicon} />
                         <Image src={require("../../../public/assets/Tabimage/WhatsAppicon.webp")} alt="WA" className={css.referearn_socialicon} />
-                    </div>
+                    </div> */}
                     <form onSubmit={handleSubmit}>
                     <div className={css.customertext}>
                         <textarea className={css.texthere} value={issue} placeholder="texthere..." onChange={(e)=>setIssue(e.target.value)}></textarea>

@@ -15,7 +15,6 @@ import HightLights from "../components/HighLights/HighLights";
 import Autoplay from './Autoplayslider/Autoplayslider';
 import WhyLhome from './whyLhome/whyLhome';
 import Zigzag from "./zigzag/Zigzag";
-
 interface homeproperties {
    screenwidth: number;
    screenheight: number;
