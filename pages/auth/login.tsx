@@ -4,35 +4,41 @@ import { useRouter } from "next/router";
 import { User, Lock } from "lucide-react";
 
 export default function LoginPage() {
-  const [credentials, setCredentials] = useState({ username: "", password: "" });
+  const [credentials, setCredentials] = useState({
+    username: "",
+    password: "",
+  });
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError(""); 
+    setError("");
     setLoading(true);
 
     const res = await signIn("credentials", {
       redirect: false,
       username: credentials.username,
       password: credentials.password,
+      callbackUrl: "/admin/dashboard", // Ensure redirection after login
     });
 
     setLoading(false);
 
     if (res?.error) {
       setError(res.error || "Invalid credentials!");
-    } else {
-      router.push("/admin/dashboard");
+    } else if (res?.url) {
+      router.push(res.url); // Redirect to dashboard after successful login
     }
   };
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 to-gray-700">
       <div className="bg-white/10 backdrop-blur-md p-12 rounded-2xl shadow-xl w-[450px] min-h-[550px] border border-white/30">
-        <h2 className="text-3xl font-semibold text-center text-white tracking-wide">Admin Login</h2>
+        <h2 className="text-3xl font-semibold text-center text-white tracking-wide">
+          Admin Login
+        </h2>
 
         {error && <p className="text-red-400 text-center mt-3">{error}</p>}
 
@@ -47,7 +53,9 @@ export default function LoginPage() {
               aria-label="Username"
               className="w-full p-4 pl-14 text-lg text-white bg-transparent border border-white/40 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none transition-all"
               value={credentials.username}
-              onChange={(e) => setCredentials({ ...credentials, username: e.target.value })}
+              onChange={(e) =>
+                setCredentials({ ...credentials, username: e.target.value })
+              }
               required
             />
           </div>
@@ -61,7 +69,9 @@ export default function LoginPage() {
               aria-label="Password"
               className="w-full p-4 pl-14 text-lg text-white bg-transparent border border-white/40 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none transition-all"
               value={credentials.password}
-              onChange={(e) => setCredentials({ ...credentials, password: e.target.value })}
+              onChange={(e) =>
+                setCredentials({ ...credentials, password: e.target.value })
+              }
               required
             />
           </div>
