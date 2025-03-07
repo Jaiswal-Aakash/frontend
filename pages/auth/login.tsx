@@ -26,9 +26,10 @@ export default function LoginPage() {
 
     setLoading(false);
 
-    if (res?.error) {
+    if (res?.error) { 
       setError(res.error || "Invalid credentials!");
     } else if (res?.url) {
+      console.log("hello",res.url);
       router.push(res.url); // Redirect to dashboard after successful login
     }
   };
