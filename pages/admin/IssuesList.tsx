@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { fetchIssues, deleteIssue, fetchUserDetails } from "../api/api";
+import { fetchIssues, deleteIssue, fetchUserDetails } from "../api/api";  
 import CustomTable from "../components/ui/CustomTable";
 import { Button } from "../components/ui/Button";
 import { toast } from "react-toastify";

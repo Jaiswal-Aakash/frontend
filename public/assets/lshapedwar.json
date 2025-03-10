@@ -8,7 +8,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar1.jpg",
       "name": " Wardrobe with Illuminated Interior",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -17,7 +16,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar2.jpg",
       "name": " Sophisticated Cadet Wardrobe",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -26,7 +24,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar3.jpg",
       "name": "Dual-Style Wardrobe with Illuminated Open",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -35,7 +32,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar4.jpg",
       "name": "Bright Teal Wardrobe with Open Display",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -44,7 +40,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar5.jpg",
       "name": "Luminous Luxe Wardrobe ",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -53,7 +48,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar6.jpg",
       "name": "Opulent White and Gold Dressing Suite",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -72,7 +66,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar7.jpg",
       "name": "Crystal Clear Storage Sanctuary",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -81,7 +74,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar8.jpg",
       "name": "Whimsical White Wonderland Wardrobe",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -90,7 +82,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar9.jpg",
       "name": "Minimalist Elegance Wardrobe",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -99,7 +90,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar10.jpg",
       "name": "Luxe Noir Wardrobe Ensemble",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -108,7 +98,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar11.jpg",
       "name": "Charming White with Showcasing Nook",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -117,7 +106,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar12.jpg",
       "name": "Elegant White Wardrobe ",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -135,8 +123,7 @@
     },
     {
       "image": "/assets/LshapedWardrope/lshapedwar13.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Minimalist Wooden Wardrobe",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -145,7 +132,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar14.jpg",
       "name": "Graceful Grey Dressing Lounge",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -154,7 +140,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar15.jpg",
       "name": "Luminous Silhouette Wardrobe",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -163,7 +148,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar16.jpg",
       "name": "Regal Carved Wardrobe",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -172,7 +156,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar17.jpg",
       "name": "Elegant Organiser Wardrobe ",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -181,7 +164,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar18.jpg",
       "name": "Midnight Luxe Wardrobe",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -200,7 +182,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar19.jpg",
       "name": "Classic Elegance Wardrobe ",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -209,7 +190,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar20.jpg",
       "name": "Modern Minimalist Wardrobe",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",
@@ -218,7 +198,6 @@
     {
       "image": "/assets/LshapedWardrope/lshapedwar21.jpg",
       "name": "Ivory Luxe Wardrobe with Gold Accents",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Shape - L-Shaped ",

@@ -3,7 +3,6 @@
     {
       "image": "/assets/SpaceSvingFurniture/spacesave1.jpg",
       "name": "Sleek Wooden Dining Table",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -12,7 +11,6 @@
     {
       "image": "/assets/SpaceSvingFurniture/spacesave2.jpg",
       "name": "Beige sofa with Grey Cushion",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -21,7 +19,6 @@
     {
       "image": "/assets/SpaceSvingFurniture/spacesave3.jpg",
       "name": "Maroon Chair with Cushion",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -40,7 +37,6 @@
     {
       "image": "/assets/SpaceSvingFurniture/spacesave4.jpg",
       "name": "Hand-Painted Marble Chair with Table",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -49,7 +45,6 @@
     {
       "image": "/assets/SpaceSvingFurniture/spacesave5.jpg",
       "name": "Sofa with Wooden Legs and Pretty Cushions",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -57,8 +52,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave6.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Modern Living Room with Wooden Accents",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -66,8 +60,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave7.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Cozy Home Office with Natural Vibes",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -75,8 +68,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave8.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Elegant L-Shaped Sofa Setup",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -84,8 +76,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave9.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Minimalist Wall Shelf Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -103,8 +94,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave10.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Classic Wooden Sofa Set",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -112,8 +102,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave11.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Warm & Stylish Interior Space",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -121,8 +110,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave12.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Vibrant Accent Living Room",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -130,8 +118,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave13.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Modern Cozy Living Room",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -139,8 +126,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave14.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Vibrant Orange Lounge",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -148,8 +134,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave15.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Minimalist Blue Seating",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -167,8 +152,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave16.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Vibrant Accent Living Room",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -176,8 +160,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave17.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Bright & Stylish Decor",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -185,8 +168,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave18.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Classic Fireplace Lounge",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -194,8 +176,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave19.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Contemporary Green Sofa",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -203,8 +184,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave20.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Cozy Pastel Lounge",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",
@@ -212,8 +192,7 @@
     },
     {
       "image": "/assets/SpaceSvingFurniture/spacesave21.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Modern Chic Seating",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Space Saving Furniture ",

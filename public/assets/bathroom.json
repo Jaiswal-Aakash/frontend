@@ -2,8 +2,7 @@
   "bathroom": [
     {
       "image": "/assets/Bathroom/bathrm1.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Sleek & Serene Shower Space",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -11,8 +10,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm2.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Contemporary Grey Bathroom",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -20,8 +18,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm3.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Minimalist Wooden Vanity",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -39,8 +36,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm4.jpg",
-      "name": "Minimalist Elegance with a Modern Touch",
-      "size": "Size | 13' X 12'",
+      "name": "Modern Luxury Bath Retreat",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -48,8 +44,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm5.jpg",
-      "name": " Geometric Patterns and Cozy Decor",
-      "size": "Size | 13' X 12'",
+      "name": " Sophisticated White Bathroom",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -57,8 +52,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm6.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Minimalist Elegance & Glass Shower",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -66,8 +60,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm7.jpg",
-      "name": "Contrasting Black and White Sophistication",
-      "size": "Size | 13' X 12'",
+      "name": "Cozy Geometric Bathroom Decor",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -75,8 +68,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm8.jpg",
-      "name": " Soft and Inviting Pastel Delight",
-      "size": "Size | 13' X 12'",
+      "name": " Stylish Monochrome Bath Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -85,7 +77,6 @@
     {
       "image": "/assets/Bathroom/bathrm9.jpg",
       "name": "Natural Textures with Subtle Patterns",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -103,8 +94,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm10.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Elegant Black & White Bath",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -112,8 +102,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm11.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Sleek Glass Shower Setup",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -121,8 +110,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm12.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Bright & Airy Bathroom Space",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -130,8 +118,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm13.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Vibrant Yellow Bath Retreat",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -139,8 +126,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm14.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Minimalist White & Green Bath",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -148,8 +134,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm15.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Luxury Blue-Toned Bathroom",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -167,8 +152,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm16.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Nature-Inspired Bathroom Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -176,8 +160,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm17.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "White & Wood Bathroom Aesthetics",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -185,8 +168,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm18.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Bright and Airy Bathroom Space",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -194,8 +176,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm19.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Elderly-Friendly Bathroom Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -203,8 +184,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm20.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "A Soft and Cozy Bathroom Setup",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -212,8 +192,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm21.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Black and White Geometric Bathroom",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -231,8 +210,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm22.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Earthy Elegance: Warm Tones & Greenery",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -240,8 +218,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm23.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Bold Contrast: Orange & Black Modern Bath",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -249,8 +226,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm24.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Serene Retreat: Soft Green Mosaic Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -258,8 +234,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm25.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Rustic Luxe: Stone-Inspired Dark Bathroom",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -267,8 +242,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm26.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Minimalist Zen: White & Wood Tranquility",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -276,8 +250,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm27.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Golden Elegance: Luxurious Yellow Marble Bath",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -295,8 +268,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm28.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Sleek Monochrome: Glass & Black Accents",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -304,8 +276,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm29.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Luxury Spa: Marble & Soft Lighting",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",
@@ -313,8 +284,7 @@
     },
     {
       "image": "/assets/Bathroom/bathrm30.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Boho Chic: Blue Tiles & Wooden Vanity",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bath room ",

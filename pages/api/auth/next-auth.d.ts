@@ -6,12 +6,12 @@ declare module "next-auth" {
   }
 
   interface User extends DefaultUser {
-    id: string; // ✅ Ensure user has an `id`
+    id: string;
   }
 }
 
 declare module "next-auth/jwt" {
   interface JWT extends DefaultJWT {
-    id: string; // ✅ Ensure JWT token has an `id`
+    id: string;
   }
 }

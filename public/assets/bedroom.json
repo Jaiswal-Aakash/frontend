@@ -3,7 +3,6 @@
     {
       "image": "/assets/Bedroom/bedrm1.jpg",
       "name": "Coastal Chic Modern Bedroom Design",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -12,7 +11,6 @@
     {
       "image": "/assets/Bedroom/bedrm2.jpg",
       "name": "Luxurious Coastal Retreat Bedroom",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -21,7 +19,6 @@
     {
       "image": "/assets/Bedroom/bedrm3.jpg",
       "name": "Modern Coastal Elegance Bedroom",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -40,7 +37,6 @@
     {
       "image": "/assets/Bedroom/bedrm4.jpg",
       "name": "Sophisticated Modern Bedroom",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -49,7 +45,6 @@
     {
       "image": "/assets/Bedroom/bedrm5.jpg",
       "name": "Modern Luxurious Bedroom ",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -58,7 +53,6 @@
     {
       "image": "/assets/Bedroom/bedrm6.jpg",
       "name": "Ocean Breeze Luxe Retreat",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -67,7 +61,6 @@
     {
       "image": "/assets/Bedroom/bedrm7.jpg",
       "name": "Midnight Elegance Sanctuary",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -76,7 +69,6 @@
     {
       "image": "/assets/Bedroom/bedrm8.jpg",
       "name": "Serenity in Symmetry",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -85,7 +77,6 @@
     {
       "image": "/assets/Bedroom/bedrm9.jpg",
       "name": "Monochrome Majesty",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -104,7 +95,6 @@
     {
       "image": "/assets/Bedroom/bedrm10.jpg",
       "name": " Gilded Tranquillity",
-      "size": "Size | 13' X 12'",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -112,8 +102,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm11.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Golden Marble Elegance Bedroom Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -121,8 +110,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm12.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Modern Serenity Bedroom Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -130,8 +118,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm13.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Timeless Comfort Bedroom Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -139,8 +126,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm14.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Sleek Urban Retreat Bedroom Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -148,8 +134,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm15.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Classic Luxe Haven Bedroom Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -167,8 +152,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm16.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Elegant Monochrome Retreat",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -176,8 +160,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm17.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Elegant Monochrome Retreat Bedroom Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -185,8 +168,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm18.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Nature-Infused Serenity Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -194,8 +176,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm19.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Warm Rustic Escape Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -203,8 +184,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm20.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Modern Minimalist Comfort Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -212,8 +192,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm21.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Classic Earthy Elegance Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -231,8 +210,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm22.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Luxury Contemporary Bedroom Retreat",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -240,8 +218,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm23.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Minimalist Elegant Bedroom Space",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -249,8 +226,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm24.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Warm & Cozy Modern Bedroom",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -258,8 +234,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm25.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Sleek and Sophisticated Bedroom Decor",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -267,8 +242,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm26.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Classic White Luxe Bedroom Design",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -276,8 +250,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm27.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Serene Blue-Themed Luxury Bedroom",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -295,8 +268,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm28.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Warm & Earthy Modern Bedroom",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -304,8 +276,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm29.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Minimalist Zen Bedroom Retreat",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",
@@ -313,8 +284,7 @@
     },
     {
       "image": "/assets/Bedroom/bedrm30.jpg",
-      "name": "Coastal Chic Modern Kitchen Design",
-      "size": "Size | 13' X 12'",
+      "name": "Luxurious Golden Accents Bedroom",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Bed room ",

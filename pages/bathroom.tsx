@@ -115,7 +115,7 @@ const HomeOffice: React.FC = () => {
                   <span className={css.bathroom_filter_slash}>/</span>
                   <span className={css.bathroom_filter_link_span2}><Link href={{ pathname: "/bathroom" }} className={css.bathroom_filter_link}>bathroom</Link></span>
                 </div>
-                <div className={css.bathroom_filter_header_content}>Bath Room</div>
+                <div className={css.bathroom_filter_header_content}>Bathroom</div>
                 <div className="row ">
                   <div className="col-lg-3 "> </div>
 
@@ -125,7 +125,7 @@ const HomeOffice: React.FC = () => {
                   <div className="col-lg-3 "></div>
 
                 </div>
-                <div><Ideas prop="Bath Room" color="red" space="bathroom"/></div>
+                <div><Ideas prop="Bathroom" color="red" space="bathroom"/></div>
               </div>
             </div>
             <div className="mt-[-5%]"><DynamicIterableComponent data={homeOffice} categoryId='15'/></div>
