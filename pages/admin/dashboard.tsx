@@ -1,12 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Sidebar from "../components/ui/Sidebar";
 import CreateJob from "./CreateJob";
 import JobList from "./JobList";
 import IssuesList from "./IssuesList";
+import { useRouter } from "next/router";
 
 const Dashboard = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    const isAuthenticated = localStorage.getItem("isAuthenticated");
+    if (!isAuthenticated) {
+      router.push("/auth/login"); // Redirect to login if not authenticated
+    }
+  }, []);
   const [selectedSection, setSelectedSection] = useState("list");
 
   return (

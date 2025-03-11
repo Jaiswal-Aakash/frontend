@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { signIn } from "next-auth/react";
 import { useRouter } from "next/router";
 import { User, Lock } from "lucide-react";
 
@@ -17,21 +16,23 @@ export default function LoginPage() {
     setError("");
     setLoading(true);
 
-    const res = await signIn("credentials", {
-      redirect: false,
-      username: credentials.username,
-      password: credentials.password,
-      callbackUrl: "/admin/dashboard", // Ensure redirection after login
-    });
+    // Hardcoded username and password for simplicity
+    const adminUser = { username: "admin", password: "admin123" };
+
+    if (
+      credentials.username === adminUser.username &&
+      credentials.password === adminUser.password
+    ) {
+      // Store auth state in localStorage/sessionStorage
+      localStorage.setItem("isAuthenticated", "true");
+
+      // Redirect to dashboard
+      router.push("/admin/dashboard");
+    } else {
+      setError("Invalid username or password!");
+    }
 
     setLoading(false);
-
-    if (res?.error) { 
-      setError(res.error || "Invalid credentials!");
-    } else if (res?.url) {
-      console.log("hello",res.url);
-      router.push(res.url); // Redirect to dashboard after successful login
-    }
   };
 
   return (
@@ -50,8 +51,6 @@ export default function LoginPage() {
             <input
               type="text"
               placeholder="Username"
-              autoFocus
-              aria-label="Username"
               className="w-full p-4 pl-14 text-lg text-white bg-transparent border border-white/40 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none transition-all"
               value={credentials.username}
               onChange={(e) =>
@@ -67,7 +66,6 @@ export default function LoginPage() {
             <input
               type="password"
               placeholder="Password"
-              aria-label="Password"
               className="w-full p-4 pl-14 text-lg text-white bg-transparent border border-white/40 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none transition-all"
               value={credentials.password}
               onChange={(e) =>
