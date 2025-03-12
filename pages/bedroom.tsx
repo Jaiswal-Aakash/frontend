@@ -101,7 +101,7 @@ const ModularKitchenPage: React.FC = () => {
 
                     <div ref={page} onScroll={pageheaderMonitor} className={hidden ? css.LhomeBottom1 : css.LhomeBottom}>
                         <div><BedroomBanner /></div>
-                        <div>< DesignColorPlay/></div>
+                        {/* <div>< DesignColorPlay/></div> */}
 
                         <div className={css.bedroom_bgclr}>
                 <div className={css.bedroom_filter_home}>
@@ -110,7 +110,7 @@ const ModularKitchenPage: React.FC = () => {
                   <span className={css.bedroom_filter_slash}>/</span>
                   <span className={css.bedroom_filter_link_span2}><Link href={{ pathname: "/bedroom" }} className={css.bedroom_filter_link}>bedroom</Link></span>
                 </div>
-                <div className={css.bedroom_filter_header_content}>Bed Room</div>
+                <div className={css.bedroom_filter_header_content}>Bedroom</div>
                 <div className="row ">
                 <div className="col-lg-3 "> </div>
 
@@ -120,7 +120,7 @@ const ModularKitchenPage: React.FC = () => {
                   <div className="col-lg-3 "></div>
                   
                   </div>
-                  <div><Ideas prop = "Bed Room" color="red" space="bedroom"/></div>
+                  <div><Ideas prop = "Bedroom" color="red" space="bedroom"/></div>
                   </div>
                   </div>
                         <div className="mt-[-5%]"><DynamicIterableComponent data={bedroom} categoryId='13'/></div>

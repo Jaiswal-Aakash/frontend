@@ -110,7 +110,7 @@ const DynamicIterableComponent: React.FC<properties> = ({ data , categoryId}) =>
                                                     <img loading="lazy" className='' src={item.image} onClick={() => handlePopup(item , index) } alt='images' />
                                                     <div className={" w-full flex grid-cols-5 "} style={{padding:"2% 0 3%"}}>
                                                         <div className="w-full col-span-3 " onClick={() => handlePopup(item , index) }>
-                                                            <span className={css.customname + " sm:text-[8px] md:text-[12px]"}>{item.name}</span>
+                                                            <span className={css.customname + " sm:text-[8px] md:text-[12px] block"}>{item.name}</span>
                                                             <span className={css.customtext}>
                                                                 {item.size}
                                                             </span>

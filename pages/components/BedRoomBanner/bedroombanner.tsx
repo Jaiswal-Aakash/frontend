@@ -34,7 +34,7 @@ const BedroomBanner: React.FC = () => {
              <div key={`${datas.toptext}_${index}_${index}`} className={css.bedroomimageContainer}>
                  <img src={datas.bedroombanner} alt="bannerImage" className={css.bedroomimage} />
                  <div className={css.bedroombannercontent}>
-                     <h4 className={css.bedroom_tagline}>Design your own</h4> <h2 className={css.bedroom_tagline1}>BedRoom with </h2><h2 className={css.bedroom_tagline1}>our experts!</h2>
+                     <h4 className={css.bedroom_tagline}>Design your own</h4> <h2 className={css.bedroom_tagline1}>Bedroom with </h2><h2 className={css.bedroom_tagline1}>our experts!</h2>
                  </div>
                  <div className={css.bedroombannerform}>
                      <div className={css.bedroomform}><Form /></div>
