@@ -2,6 +2,7 @@
 .footer {
    background-color: #fff;
    display: flex;
+   flex-direction: column;
 }
 .footerInnerLayer {
    padding: 3%;
