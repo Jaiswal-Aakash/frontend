@@ -169,7 +169,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="w-full mb-12 mt-9 text-center text-gray-500 text-xs md:text-sm px-2 break-words">
+        <div className="w-full mb-20 mt-9 text-center text-gray-500 text-xs md:text-sm px-2 break-words">
           <div className="w-[90vw] border-t border-gray-300 mx-auto mb-12"></div>©
           2025, Website Designed and Maintained by
           <a
