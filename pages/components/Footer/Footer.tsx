@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
                   src={mail}
                   alt="E-Mail:"
                 />
-                madhu@lhome.co.in
+                marketing@lhome.co.in
               </div>
               {/* <span className="w-full text-center text-sm md:text-base px-2 break-words">
                 © 2025, Website Designed and <br /> Maintained by
