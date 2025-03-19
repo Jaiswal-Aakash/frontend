@@ -35,7 +35,7 @@ const InteriorDesign: React.FC = () => {
                   <div className={css.guaranteedBodyBorder}>
                      <img className={css.googleIcon} src={googleIcon} alt="" />
                      <div className={css.likeScore}>5/5 (1000+ Reviews)</div>
-                     <div className={css.likeScoreDetail}>02 Cities | 02 Studios</div>
+                     <div className={css.likeScoreDetail}>01 City | 01 Studio</div>
                      <div className={css.likeScoreDetailLocation}> Coimbatore</div>
                   </div>
                   <div className={css.guaranteedBodyLine}><hr id="verticaldivider" className={css.verticaldivider} /></div>
