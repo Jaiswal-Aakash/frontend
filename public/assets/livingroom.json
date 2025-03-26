@@ -2,7 +2,7 @@
   "livingRoom": [
     {
       "image": "/assets/LivingRoom/livingrm1.jpg",
-      "name": "Modern Elegance with Monochrome Touch ",
+      "name": "Modern Elegance Touch ",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Living room ",
@@ -60,7 +60,7 @@
     },
     {
       "image": "/assets/LivingRoom/livingrm7.jpg",
-      "name": "Bright Green and Natural Wood Living Room",
+      "name": "Natural Wood Living Room",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Living room ",
@@ -134,7 +134,7 @@
     },
     {
       "image": "/assets/LivingRoom/livingrm15.jpg",
-      "name": "Playful Blue and Yellow Kid’s Living Room",
+      "name": "Playful and Yellow Kid’s Living Room",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Living room ",
@@ -152,7 +152,7 @@
     },
     {
       "image": "/assets/LivingRoom/livingrm16.jpg",
-      "name": " Warm Coral and Blue Modern Living Room",
+      "name": " Warm and Blue Modern Living Room",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Living room ",
@@ -168,7 +168,7 @@
     },
     {
       "image": "/assets/LivingRoom/livingrm18.jpg",
-      "name": " Bold Blue and Neutral Modern Living Room",
+      "name": "Blue and Neutral Modern Living Room",
       "likeIcon": "/assets/icons/wishlist.png",
       "shareIcon": "/assets/icons/shareicon.png",
       "type": "Living room ",
