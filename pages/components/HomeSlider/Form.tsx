@@ -147,7 +147,7 @@ const Form: React.FC = () => {
                         </label>
                     </div>
                 </div>
-                <div className={css.whatsapplabel}>
+                {/* <div className={css.whatsapplabel}>
                     <div className='w-full flex flex-col justify-end items-end'>
                         <span className={css.label1}>you can reach me on whatsApp</span>
                         <span className={css.label2}>opt for meeting and offer updates on WhatsApp</span>
@@ -157,7 +157,7 @@ const Form: React.FC = () => {
                             autoComplete='off' type="checkbox" className={"form-checkbox h-5 w-5 text-blue-600 " + css.checkboxForLg} id="customCheckbox_banner" checked={formData.checkforwhatsapp} onChange={handleCheckboxChange} />
                         <label htmlFor="customCheckbox_banner" className={css.checkmark}></label>
                     </label>
-                </div>
+                </div> */}
                 <div className="flex  gap-6" style={{ width: "100%", marginTop: "-5px" }}>
                     <div className={`relative h-full w-full min-w-[200px] ${css.marginmovebig_2}`}>
                         <input

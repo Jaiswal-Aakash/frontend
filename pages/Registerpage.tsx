@@ -82,7 +82,7 @@ const Registerpage = ({toggleForm , setShow}) => {
                         value={values.number} />
                         {touched.number && errors.number ? <span className='text-red-500 flex'>{errors.number}</span> : null}
                 </div>
-                <div className={css.whatsapplabel}>
+                {/* <div className={css.whatsapplabel}>
                     <div className='w-full flex flex-col justify-center items-right pe-2'>
                         <span className={css.label1}>you can reach me on whatsApp</span>
                         <span className={css.label2}>opt for meeting and offer updates on WhatsApp</span>
@@ -95,7 +95,7 @@ const Registerpage = ({toggleForm , setShow}) => {
                             id="customCheckbox" />
                         <label htmlFor="customCheckbox" className={css.checkmark}></label>
                     </div>
-                </div>
+                </div> */}
                 <div className={css.input_form_content}>
                 <input type='text' className={css.SInput1} placeholder='Enter your email' name='email' onChange={handleChange}
                     onBlur={handleBlur}
