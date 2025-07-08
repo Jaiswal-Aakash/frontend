@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
-},
+  },
   reactStrictMode: true,
   swcMinify: true,
   assetPrefix: '/',
@@ -12,7 +12,7 @@ const nextConfig = {
     domains: isProd ? ['https://www.lhome.co.in'] : ['localhost'],
     unoptimized: isProd,
   },
-  distDir: 'dist',
+  // distDir: 'dist',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
