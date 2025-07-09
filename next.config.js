@@ -9,7 +9,7 @@ const nextConfig = {
     domains: isProd ? ["https://www.lhome.co.in"] : ["localhost"],
     unoptimized: isProd,
   },
-  distDir: "dist",
+  // distDir: "dist",
   sassOptions: { includePaths: [path.join(__dirname, "styles")] },
   output: isProd ? "export" : undefined,
   assetPrefix: isProd ? "https://www.lhome.co.in" : undefined,
