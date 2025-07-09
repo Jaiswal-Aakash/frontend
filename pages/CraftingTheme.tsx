@@ -1,11 +1,11 @@
 import * as React from "react";
 import * as config from "../next.config";
-import PageHeader from "./components/PageHeader";
+import PageHeader from "./_components/PageHeader";
 import css from "../styles/Craftingtheme.module.scss";
-import Footer from "./components/Footer/Footer";
-import Warranty from "./components/warranty/Warranty";
+import Footer from "./_components/Footer/Footer";
+import Warranty from "./_components/warranty/Warranty";
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import CraftingThemeBanner from "./components/CraftingTheme/CraftingTheme";
+import CraftingThemeBanner from "./_components/CraftingTheme/CraftingTheme";
 
 const CraftingTheme: React.FC = () => {
     const living = React.useRef(null);

@@ -2,17 +2,17 @@ import React from "react";
 import css from "../styles/homeoffice.module.scss";
 import * as config from "../next.config.js";
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import PageHeader from "./components/PageHeader";
-import HomeOfficeBaner from "./components/HomeOfiice/homeoffficebaner";
+import PageHeader from "./_components/PageHeader";
+import HomeOfficeBaner from "./_components/HomeOfiice/homeoffficebaner";
 import Link from "next/link";
-import Ideas from "./components/MeetDesigner/ideas";
-import Autoplay from "./components/Autoplayslider/Autoplayslider";
-import ReferNowPage from "./components/ReferNow/ReferNowPage";
-import Warranty from "./components/warranty/Warranty";
-import FAQPage from "./components/Faq/FAQPage";
-import Guranted from "./components/Guranted/Guranted";
-import Footer from "./components/Footer/Footer";
-import DynamicIterableComponent from "./components/IterableComponent/DynamicIterableComponent";
+import Ideas from "./_components/MeetDesigner/ideas";
+import Autoplay from "./_components/Autoplayslider/Autoplayslider";
+import ReferNowPage from "./_components/ReferNow/ReferNowPage";
+import Warranty from "./_components/warranty/Warranty";
+import FAQPage from "./_components/Faq/FAQPage";
+import Guranted from "./_components/Guranted/Guranted";
+import Footer from "./_components/Footer/Footer";
+import DynamicIterableComponent from "./_components/IterableComponent/DynamicIterableComponent";
 
 
 const HomeOffice: React.FC = () => {

@@ -1,6 +1,6 @@
 import css from '../../../styles/bookfreedesign.module.scss';
-import Selectbutton from '../../components/SelectButton/selectbutton';
-import Bookfreedropdown from '../../components/SelectButton/Bookfreedropdown';
+import Selectbutton from '../../_components/SelectButton/selectbutton';
+import Bookfreedropdown from '../../_components/SelectButton/Bookfreedropdown';
 function SecondStep({setSelectPlan,setSelectLooking,setSelectBudget,setSelectPossession}) {
     const Planinglabels: string[] = ["Move In", "Rent Out", "Renovate"];
     const Lookinglabels: string[] = ["End-to-end Interiors", "Kitchen and Wardrobes", "Only Kitchen"];

@@ -1,17 +1,17 @@
 import * as React from "react";
 import * as config from "../next.config.js";
-import PageHeader from "./components/PageHeader";
+import PageHeader from "./_components/PageHeader";
 import css from "../styles/Spacesavingfurniture.module.scss";
-import Footer from "./components/Footer/Footer";
-import Autoplay from "./components/Autoplayslider/Autoplayslider";
-import ReferNowPage from "./components/ReferNow/ReferNowPage";
-import Warranty from "./components/warranty/Warranty";
-import Guranted from "./components/Guranted/Guranted";
-import FAQPage from "./components/Faq/FAQPage";
-import FurnitureBaner from "./components/Spacesavingfurniture/FurnitureBanner";
-import DynamicIterableComponent from "./components/IterableComponent/DynamicIterableComponent";
+import Footer from "./_components/Footer/Footer";
+import Autoplay from "./_components/Autoplayslider/Autoplayslider";
+import ReferNowPage from "./_components/ReferNow/ReferNowPage";
+import Warranty from "./_components/warranty/Warranty";
+import Guranted from "./_components/Guranted/Guranted";
+import FAQPage from "./_components/Faq/FAQPage";
+import FurnitureBaner from "./_components/Spacesavingfurniture/FurnitureBanner";
+import DynamicIterableComponent from "./_components/IterableComponent/DynamicIterableComponent";
 import Link from "next/link.js";
-import Ideas from "./components/MeetDesigner/ideas";
+import Ideas from "./_components/MeetDesigner/ideas";
 import { simpleCallInitAPI } from "../services/ApicallInit";
 
 

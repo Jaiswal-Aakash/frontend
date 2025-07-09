@@ -1,17 +1,17 @@
 import * as React from "react";
 import * as config from "../next.config.js";
 import "react-multi-carousel/lib/styles.css";
-import PageHeader from "./components/PageHeader";
-import CitiesBanner from "./components/CitiesBanner/citiesbanner";
-import Zigzag from "./components/zigzag/Zigzag";
-import TopPicksForKitchen from "./components/HighLights/topics";
-import Wardrobes from "./components/HighLights/wardrobes";
+import PageHeader from "./_components/PageHeader";
+import CitiesBanner from "./_components/CitiesBanner/citiesbanner";
+import Zigzag from "./_components/zigzag/Zigzag";
+import TopPicksForKitchen from "./_components/HighLights/topics";
+import Wardrobes from "./_components/HighLights/wardrobes";
 import css from "../styles/cities.module.scss";
-import Footer from "./components/Footer/Footer";
-import Warranty from "./components/warranty/Warranty";
-import Guranted from "./components/Guranted/Guranted";
-import Interior from "./components/Designinterior/Interior";
-import HightLights from "./components/StylishHomeProducts/StylishHomeProducts";
+import Footer from "./_components/Footer/Footer";
+import Warranty from "./_components/warranty/Warranty";
+import Guranted from "./_components/Guranted/Guranted";
+import Interior from "./_components/Designinterior/Interior";
+import HightLights from "./_components/StylishHomeProducts/StylishHomeProducts";
 import { useRouter } from 'next/router';
 import Link from "next/link.js";
 

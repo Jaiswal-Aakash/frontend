@@ -1,12 +1,12 @@
 import * as React from "react";
 import * as config from "../next.config.js";
-import PageHeader from "./components/PageHeader";
+import PageHeader from "./_components/PageHeader";
 import css from "../styles/joinOffer.module.scss";
 
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import JobOffer from "./components/joboffer/JobOffer";
+import JobOffer from "./_components/joboffer/JobOffer";
 import { useRouter } from "next/router.js";
-import Footer from "./components/Footer/Footer";
+import Footer from "./_components/Footer/Footer";
 
 interface JobDetails {
   details: {

@@ -1,10 +1,10 @@
 import * as React from "react";
 import * as config from "../next.config.js";
-import PageHeader from "./components/PageHeader";
+import PageHeader from "./_components/PageHeader";
 import css from "../styles/colorplay.module.scss";
-import Footer from "./components/Footer/Footer";
+import Footer from "./_components/Footer/Footer";
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import ColorPlayBanner from "./components/ColorPlay/colorplay";
+import ColorPlayBanner from "./_components/ColorPlay/colorplay";
 import { log } from "console";
 
 const ColorPlay: React.FC = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import leftvector from './components/loginRegister/leftvector.png';
+import leftvector from './_components/loginRegister/leftvector.png';
 import Image from 'next/image';
 import css from '../styles/loginRegister.module.scss';
 import { TbReload } from "react-icons/tb";

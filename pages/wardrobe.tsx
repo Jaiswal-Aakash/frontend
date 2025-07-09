@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
 import * as config from "../next.config.js";
 import css from "../styles/wardrobe.module.scss"
-import PageHeader from "./components/PageHeader";
-import WarDrobeBaner from "./components/Wardrobe/wardrobeban";
+import PageHeader from "./_components/PageHeader";
+import WarDrobeBaner from "./_components/Wardrobe/wardrobeban";
 import Link from "next/link.js";
-import Autoplay from "./components/Autoplayslider/Autoplayslider";
-import ReferNowPage from "./components/ReferNow/ReferNowPage";
-import Warranty from "./components/warranty/Warranty";
-import FAQPage from "./components/Faq/FAQPage";
-import Footer from "./components/Footer/Footer";
-import Guranted from "./components/Guranted/Guranted";
+import Autoplay from "./_components/Autoplayslider/Autoplayslider";
+import ReferNowPage from "./_components/ReferNow/ReferNowPage";
+import Warranty from "./_components/warranty/Warranty";
+import FAQPage from "./_components/Faq/FAQPage";
+import Footer from "./_components/Footer/Footer";
+import Guranted from "./_components/Guranted/Guranted";
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import DynamicIterableComponent from "./components/IterableComponent/DynamicIterableComponent";
-import Ideas from "./components/MeetDesigner/ideas";
-import MeetDesigner from "./components/MeetDesigner/MeetDesigner";
+import DynamicIterableComponent from "./_components/IterableComponent/DynamicIterableComponent";
+import Ideas from "./_components/MeetDesigner/ideas";
+import MeetDesigner from "./_components/MeetDesigner/MeetDesigner";
 
 
 

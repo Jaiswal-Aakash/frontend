@@ -2,13 +2,13 @@ import React, { useEffect } from "react";
 import css from "../styles/referandearn.module.scss";
 import * as config from "../next.config.js";
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import PageHeader from "./components/PageHeader";
-import ReferBaner from "./components/ReferAndEarn/referbaner";
-import ReferNowPage from "./components/ReferNow/ReferNowPage";
-import Warranty from "./components/warranty/Warranty";
-import Footer from "./components/Footer/Footer";
-import Steps3 from "./components/ReferandEarn3steps/Steps3";
-import TermsAndCondition from "./components/TermsandCondition/termsandcondition";
+import PageHeader from "./_components/PageHeader";
+import ReferBaner from "./_components/ReferAndEarn/referbaner";
+import ReferNowPage from "./_components/ReferNow/ReferNowPage";
+import Warranty from "./_components/warranty/Warranty";
+import Footer from "./_components/Footer/Footer";
+import Steps3 from "./_components/ReferandEarn3steps/Steps3";
+import TermsAndCondition from "./_components/TermsandCondition/termsandcondition";
 
 const ReferAndEarn: React.FC = () => {
     const living = React.useRef(null);

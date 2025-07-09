@@ -1,14 +1,14 @@
 import * as React from "react";
 import * as config from "../next.config.js";
 import "react-multi-carousel/lib/styles.css";
-import PageHeader from "./components/PageHeader";
-import TopPicksForKitchen from "./components/HighLights/topics";
-import Wardrobes from "./components/HighLights/wardrobes";
+import PageHeader from "./_components/PageHeader";
+import TopPicksForKitchen from "./_components/HighLights/topics";
+import Wardrobes from "./_components/HighLights/wardrobes";
 import css from "../styles/designgallery.module.scss";
-import StylishHomeProducts from "./components/StylishHomeProducts/StylishHomeProducts";
+import StylishHomeProducts from "./_components/StylishHomeProducts/StylishHomeProducts";
 import { useRouter } from 'next/router';
-import Footer from "./components/Footer/Footer";
-import GetQuoteContent from "./components/getQuote/getQuote_content";
+import Footer from "./_components/Footer/Footer";
+import GetQuoteContent from "./_components/getQuote/getQuote_content";
 import { Grid } from "@mui/material";
 
 

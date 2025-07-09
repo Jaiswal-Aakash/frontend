@@ -1,7 +1,7 @@
 import css from '../../../styles/bookfreedesign.module.scss';
-import Selectbutton from '../../components/SelectButton/selectbutton';
-import Radibutton from '../../components/SelectButton/RadiButton';
-import Bookfreedropdown from '../../components/SelectButton/Bookfreedropdown';
+import Selectbutton from '../../_components/SelectButton/selectbutton';
+import Radibutton from '../../_components/SelectButton/RadiButton';
+import Bookfreedropdown from '../../_components/SelectButton/Bookfreedropdown';
 function FirstStep({setBHK,setSelectButton,setSelectLocation}) {
     const labels: string[] = ["Apartment", "Villa", "Independent Home"];
     const district: string[] = [

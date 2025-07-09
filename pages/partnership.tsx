@@ -1,14 +1,14 @@
 import * as React from "react";
 import * as config from "../next.config.js";
-import PageHeader from "./components/PageHeader";
+import PageHeader from "./_components/PageHeader";
 import css from "../styles/bedroom.module.scss";
-import Footer from "./components/Footer/Footer";
-import Warranty from "./components/warranty/Warranty";
-import Guranted from "./components/Guranted/Guranted";
-import FAQPage from "./components/Faq/FAQPage";
-import PartnershipBanner from "./components/Partnership/PartnershipBanner";
-import OurPartners from "./components/Partnership/OurPartners/OurPartners";
-import PartnershipRow from "./components/Partnership/PartnershipRow/PartnershipRow";
+import Footer from "./_components/Footer/Footer";
+import Warranty from "./_components/warranty/Warranty";
+import Guranted from "./_components/Guranted/Guranted";
+import FAQPage from "./_components/Faq/FAQPage";
+import PartnershipBanner from "./_components/Partnership/PartnershipBanner";
+import OurPartners from "./_components/Partnership/OurPartners/OurPartners";
+import PartnershipRow from "./_components/Partnership/PartnershipRow/PartnershipRow";
 
 const Partnership: React.FC = () => {
     const [screenwidth, setWidth] = React.useState(window.innerWidth);

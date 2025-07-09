@@ -1,23 +1,23 @@
 import * as React from "react";
 import * as config from "../next.config.js";
-import PageHeader from "./components/PageHeader";
+import PageHeader from "./_components/PageHeader";
 import css from "../styles/customstories.module.scss";
-import Footer from "./components/Footer/Footer";
-import Autoplay from "./components/Autoplayslider/Autoplayslider";
-import ReferNowPage from "./components/ReferNow/ReferNowPage";
-import Warranty from "./components/warranty/Warranty";
-import Guranted from "./components/Guranted/Guranted";
-import FAQPage from "./components/Faq/FAQPage";
+import Footer from "./_components/Footer/Footer";
+import Autoplay from "./_components/Autoplayslider/Autoplayslider";
+import ReferNowPage from "./_components/ReferNow/ReferNowPage";
+import Warranty from "./_components/warranty/Warranty";
+import Guranted from "./_components/Guranted/Guranted";
+import FAQPage from "./_components/Faq/FAQPage";
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import DynamicIterableComponent from "./components/IterableComponent/DynamicIterableComponent";
+import DynamicIterableComponent from "./_components/IterableComponent/DynamicIterableComponent";
 import Link from "next/link.js";
-import Ideas from "./components/MeetDesigner/ideas";
-// import LivingRoomBanner from "./components/LivingRoom/LivingBanner";
-import Autoplayservice from "./components/Customstories/Autoplayservice";
-import ContentedLiving from "./components/contentedLiving/ContentedLiving";
-import JoinPool from "./components/JoinPool/joinPool";
-import Recentprojectnav from "./components/Tabsimage/recentprojectnav";
-import RecentProject from "./components/Recentbanner/Recentprojectbanner";
+import Ideas from "./_components/MeetDesigner/ideas";
+// import LivingRoomBanner from "./_components/LivingRoom/LivingBanner";
+import Autoplayservice from "./_components/Customstories/Autoplayservice";
+import ContentedLiving from "./_components/contentedLiving/ContentedLiving";
+import JoinPool from "./_components/JoinPool/joinPool";
+import Recentprojectnav from "./_components/Tabsimage/recentprojectnav";
+import RecentProject from "./_components/Recentbanner/Recentprojectbanner";
 
 const CustomStoriesPage: React.FC = () => {
     const living = React.useRef(null);

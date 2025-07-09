@@ -1,19 +1,19 @@
 import * as React from "react";
 import * as config from "../next.config.js";
-import PageHeader from "./components/PageHeader";
+import PageHeader from "./_components/PageHeader";
 import css from "../styles/modularkitchen.module.scss";
-import Footer from "./components/Footer/Footer";
-import KitchenBaner from "./components/ModularKitchen/kitchenbaner";
-import Autoplay from "./components/Autoplayslider/Autoplayslider";
-import ReferNowPage from "./components/ReferNow/ReferNowPage";
-import Warranty from "./components/warranty/Warranty";
-import Guranted from "./components/Guranted/Guranted";
-import FAQPage from "./components/Faq/FAQPage";
+import Footer from "./_components/Footer/Footer";
+import KitchenBaner from "./_components/ModularKitchen/kitchenbaner";
+import Autoplay from "./_components/Autoplayslider/Autoplayslider";
+import ReferNowPage from "./_components/ReferNow/ReferNowPage";
+import Warranty from "./_components/warranty/Warranty";
+import Guranted from "./_components/Guranted/Guranted";
+import FAQPage from "./_components/Faq/FAQPage";
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import DynamicIterableComponent from "./components/IterableComponent/DynamicIterableComponent";
-import MeetDesigner from "./components/MeetDesigner/MeetDesigner";
+import DynamicIterableComponent from "./_components/IterableComponent/DynamicIterableComponent";
+import MeetDesigner from "./_components/MeetDesigner/MeetDesigner";
 import Link from "next/link.js";
-import Ideas from "./components/MeetDesigner/ideas";
+import Ideas from "./_components/MeetDesigner/ideas";
 
 
 const ModularKitchenPage: React.FC = () => {

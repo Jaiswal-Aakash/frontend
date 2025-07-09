@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import { fetchIssues, deleteIssue, fetchUserDetails } from "../api/api";  
-import CustomTable from "../components/ui/CustomTable";
-import { Button } from "../components/ui/Button";
+import CustomTable from "../../components/ui/CustomTable";
+import { Button } from "../../components/ui/Button";
 import { toast } from "react-toastify";
 
 interface Issue {

@@ -1,12 +1,12 @@
 import * as React from "react";
 import * as config from "../next.config.js";
-import PageHeader from "./components/PageHeader";
+import PageHeader from "./_components/PageHeader";
 import css from "../styles/bedroom.module.scss";
-import Footer from "./components/Footer/Footer";
-import Warranty from "./components/warranty/Warranty";
+import Footer from "./_components/Footer/Footer";
+import Warranty from "./_components/warranty/Warranty";
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import DesignJorunaalBanner from "./components/DesignJournal/designjournal";
-import DesignColorPlay from "./components/DesignColorPlay/designcolorplay";
+import DesignJorunaalBanner from "./_components/DesignJournal/designjournal";
+import DesignColorPlay from "./_components/DesignColorPlay/designcolorplay";
 
 
 const designJournal: React.FC = () => {

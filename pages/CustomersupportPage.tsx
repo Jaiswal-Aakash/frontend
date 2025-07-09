@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 import css from "../styles/visitus.module.scss";
 import * as config from "../next.config.js";
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import PageHeader from "./components/PageHeader";
-import VisitBaner from "./components/VisitUs/visitbaner";
-import Guranted from "./components/Guranted/Guranted";
-import Footer from "./components/Footer/Footer";
-import Customsupport from "./components/Customersupport/Customersupport";
+import PageHeader from "./_components/PageHeader";
+import VisitBaner from "./_components/VisitUs/visitbaner";
+import Guranted from "./_components/Guranted/Guranted";
+import Footer from "./_components/Footer/Footer";
+import Customsupport from "./_components/Customersupport/Customersupport";
 import { useRouter } from "next/router";
 
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Sidebar from "../components/ui/Sidebar";
+import Sidebar from "../../components/ui/Sidebar";
 import CreateJob from "./CreateJob";
 import JobList from "./JobList";
 import IssuesList from "./IssuesList";

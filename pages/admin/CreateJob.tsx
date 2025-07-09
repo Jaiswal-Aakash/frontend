@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { createJob } from "../../services/jobService";
-import { Button } from "../components/ui/Button";
+import { Button } from "../../components/ui/Button";
 
 const CreateJobPage = () => {
   const [newJob, setNewJob] = useState({

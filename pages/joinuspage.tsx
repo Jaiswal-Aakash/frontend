@@ -1,13 +1,13 @@
 import * as React from "react";
 import * as config from "../next.config.js";
-import PageHeader from "./components/PageHeader";
+import PageHeader from "./_components/PageHeader";
 import css from "../styles/customstories.module.scss";
-import Footer from "./components/Footer/Footer";
-import Warranty from "./components/warranty/Warranty";
+import Footer from "./_components/Footer/Footer";
+import Warranty from "./_components/warranty/Warranty";
 import { simpleCallInitAPI } from "../services/ApicallInit";
-import JoinPool from "./components/JoinPool/joinPool";
-import JoinusBanner from "./components/JoinusBanner/JoinusBanner";
-import JoinusTable from "./components/JoinusTable/joinusTable";
+import JoinPool from "./_components/JoinPool/joinPool";
+import JoinusBanner from "./_components/JoinusBanner/JoinusBanner";
+import JoinusTable from "./_components/JoinusTable/joinusTable";
 import Image from "next/image.js";
 
 const JoinusPage: React.FC = () => {

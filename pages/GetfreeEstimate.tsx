@@ -6,16 +6,16 @@ import StepButton from '@mui/material/StepButton';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import css from '../styles/getfreeEstimate.module.scss'
-import FirststepGetfree from './components/MultiStep/FirststepGetfree';
+import FirststepGetfree from './_components/MultiStep/FirststepGetfree';
 import { StepIconProps } from '@mui/material/StepIcon';
 import StepConnector, { stepConnectorClasses } from '@mui/material/StepConnector';
 import { styled } from '@mui/material/styles';
 import Check from '@mui/icons-material/Check';
 import StepLabel from '@mui/material/StepLabel';
-import SecondstepGetfree from './components/MultiStep/SecondstepGetfree';
+import SecondstepGetfree from './_components/MultiStep/SecondstepGetfree';
 import { useRouter } from 'next/router';
 import * as config from "./../next.config.js";
-import PageHeader from "./components/PageHeader";
+import PageHeader from "./_components/PageHeader";
 import Image from 'next/image';
 import {toast} from 'react-toastify';
 const QontoConnector = styled(StepConnector)(({ theme }) => ({

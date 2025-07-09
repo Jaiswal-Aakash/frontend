@@ -2,9 +2,9 @@
 import * as React from "react";
 import css from "../styles/joinOffer.module.scss";
 import { useRouter } from "next/router.js";
-import ApplyForJobForm from "./components/Jobform/Jobform";
-import Joinpoolcom from "./components/JoinPool/joinPoolcontent";
-import Footer from "./components/Footer/Footer";
+import ApplyForJobForm from "./_components/Jobform/Jobform";
+import Joinpoolcom from "./_components/JoinPool/joinPoolcontent";
+import Footer from "./_components/Footer/Footer";
 
 interface JobDetails {
     details: {

@@ -1,6 +1,6 @@
 import { Grid } from '@mui/material';
 import css from '../../../styles/bookfreedesign.module.scss';
-import Bookfreedropdown from '../../components/SelectButton/Bookfreedropdown';
+import Bookfreedropdown from '../../_components/SelectButton/Bookfreedropdown';
 import React from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';

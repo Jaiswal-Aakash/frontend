@@ -16,8 +16,8 @@ import {
   HashRouter,
   Switch
 } from "react-router-dom";
-import ClientOnly from './components/ClientOnly';
-const HomePage = dynamic(() => import("./components/NewHomePage"), { ssr: false });
+import ClientOnly from './_components/ClientOnly';
+const HomePage = dynamic(() => import("./_components/NewHomePage"), { ssr: false });
 
 function App() {
   const [screenwidth, setWidth] = React.useState(window.innerWidth);

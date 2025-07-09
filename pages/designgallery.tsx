@@ -1,21 +1,21 @@
 import * as React from "react";
 import * as config from "../next.config.js";
 import "react-multi-carousel/lib/styles.css";
-import PageHeader from "./components/PageHeader";
-import DesignGalleryBanner from "./components/DesignGalleryBanner/DesignGallery";
-import DesignGallery from "./components/DesignGallery/DesignGallery";
-import WhyLhome from "./components/whyLhome/whyLhome";
-import TopPicksForKitchen from "./components/HighLights/topics";
-import Wardrobes from "./components/HighLights/wardrobes";
+import PageHeader from "./_components/PageHeader";
+import DesignGalleryBanner from "./_components/DesignGalleryBanner/DesignGallery";
+import DesignGallery from "./_components/DesignGallery/DesignGallery";
+import WhyLhome from "./_components/whyLhome/whyLhome";
+import TopPicksForKitchen from "./_components/HighLights/topics";
+import Wardrobes from "./_components/HighLights/wardrobes";
 import css from "../styles/designgallery.module.scss";
-import StylishHomeProducts from "./components/StylishHomeProducts/StylishHomeProducts";
-import Autoplay from "./components/Autoplayslider/Autoplayslider";
-import FAQPage from "./components/Faq/FAQPage";
-import ReferNowPage from "./components/ReferNow/ReferNowPage";
-import Footer from "./components/Footer/Footer";
-import Warranty from "./components/warranty/Warranty";
-import Guranted from "./components/Guranted/Guranted";
-import Interior from "./components/Designinterior/Interior";
+import StylishHomeProducts from "./_components/StylishHomeProducts/StylishHomeProducts";
+import Autoplay from "./_components/Autoplayslider/Autoplayslider";
+import FAQPage from "./_components/Faq/FAQPage";
+import ReferNowPage from "./_components/ReferNow/ReferNowPage";
+import Footer from "./_components/Footer/Footer";
+import Warranty from "./_components/warranty/Warranty";
+import Guranted from "./_components/Guranted/Guranted";
+import Interior from "./_components/Designinterior/Interior";
 import { useRouter } from 'next/router';
 
 const DesignGalleryPage: React.FC = () => {
