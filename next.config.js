@@ -1,18 +1,24 @@
-/** @type {import('next').NextConfig} */ const path = require("path");
+/** @type {import('next').NextConfig} */
+const path = require("path");
 const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
   eslint: { ignoreDuringBuilds: true },
   reactStrictMode: true,
   swcMinify: true,
   assetPrefix: "/",
   images: {
-    domains: isProd ? ["https://www.lhome.co.in"] : ["localhost"],
+    domains: isProd ? ["www.lhome.co.in"] : ["localhost"], // removed "https://" as it's not needed here
     unoptimized: isProd,
   },
   // distDir: "dist",
   sassOptions: { includePaths: [path.join(__dirname, "styles")] },
-  output: isProd ? "export" : undefined,
+
+  // ❌ Removed output: 'export' so it can work with `next start`
+  // ✅ Optional: keep assetPrefix only if you're hosting under subdirectory
   assetPrefix: isProd ? "https://www.lhome.co.in" : undefined,
+
   trailingSlash: true,
 };
+
 module.exports = nextConfig;
