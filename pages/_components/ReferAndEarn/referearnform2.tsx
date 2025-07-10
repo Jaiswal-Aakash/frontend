@@ -29,7 +29,7 @@ const ReferEarnForm2 = () => {
             try{
                if(getUserId()){
                 setLoading(true);
-             const url = process.env.NEXT_PUBLIC_URL;
+             const url = process.env.NEXT_PUBLIC_API_URL || "https://api.lhome.co.in/api";
 
                 // const response = await AxiosService.post('/referUser' , {...values , userId : getUserId()});
                 const response = await AxiosService.post(`${url}/referUser` , {...values , userId : getUserId()});

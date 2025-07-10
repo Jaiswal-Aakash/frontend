@@ -7,10 +7,10 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   basePath: '/com',
-  assetPrefix: isProd ? "https://www.lhome.co.in/com/" : "/com/",
+  assetPrefix: isProd ? "https://lhome.co.in/com/" : "/com/",
   trailingSlash: true,
   images: {
-    domains: isProd ? ["www.lhome.co.in"] : ["localhost"],
+    domains: isProd ? ["lhome.co.in", "www.lhome.co.in"] : ["localhost"],
     unoptimized: isProd,
   },
   sassOptions: {

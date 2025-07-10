@@ -79,7 +79,7 @@ export default function IssuesList() {
       }
 
       console.log("Sending email notification to:", userDetails.email);
-      const url = process.env.NEXT_PUBLIC_URL;
+              const url = process.env.NEXT_PUBLIC_API_URL || "https://api.lhome.co.in/api";
 
       try {
         const response = await fetch(`${url}/sendIssuemail`, {

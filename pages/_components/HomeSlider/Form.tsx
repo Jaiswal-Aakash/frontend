@@ -84,7 +84,7 @@ const Form: React.FC = () => {
         }
 
 
-             const url = process.env.NEXT_PUBLIC_URL;
+             const url = process.env.NEXT_PUBLIC_API_URL || "https://api.lhome.co.in/api";
 
         try {
             // const response = await AxiosService.post('/register', {...formData , number: Number(formData.number) , pincode: Number(formData.pincode)});

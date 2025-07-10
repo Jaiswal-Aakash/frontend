@@ -3,7 +3,7 @@ const next = require('next');
 const path = require('path');
 
 const dev = process.env.NODE_ENV !== 'production';
-const app = next({ dev, conf: { basePath: '/com', assetPrefix: '/com' } });
+const app = next({ dev });
 const handle = app.getRequestHandler();
 
 // Optional: Remove trailing slashes from all routes (keep if desired)
@@ -18,16 +18,32 @@ function redirectTrailingSlash(req, res, next) {
   next();
 }
 
+// CORS middleware
+function corsMiddleware(req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  
+  if (req.method === 'OPTIONS') {
+    res.sendStatus(200);
+  } else {
+    next();
+  }
+}
+
 app.prepare().then(() => {
   const server = express();
   const port = process.env.PORT || 5000;
 
+  server.use(corsMiddleware);
   server.use(redirectTrailingSlash);
 
   // Serve static files from the `.next` directory correctly
   server.use('/com/_next', express.static(path.join(__dirname, '.next', 'static')));
   server.use('/com/static', express.static(path.join(__dirname, 'public', 'static')));
-  server.use('/com', (req, res) => handle(req, res)); // handle everything else under /com
+  
+  // Handle all requests under /com
+  server.use('/com', (req, res) => handle(req, res));
 
   // Catch-all fallback
   server.all('*', (req, res) => {

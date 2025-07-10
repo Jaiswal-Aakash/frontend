@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_URL;
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.lhome.co.in/api";
 
 export const fetchJobs = async () => {
   try {

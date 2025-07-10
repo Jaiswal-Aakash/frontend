@@ -97,7 +97,7 @@ const ApplyForJobForm: React.FC<ApplyForJobFormProps> = ({ header, joblocation, 
         const response = await AxiosService.post('/jobApplication', formData, {
             headers: { 'Content-Type': 'multipart/form-data' },
         });
-             const url = process.env.NEXT_PUBLIC_URL;
+             const url = process.env.NEXT_PUBLIC_API_URL || "https://api.lhome.co.in/api";
 
         if (response.status === 201) {
             // Second API call to send email
