@@ -38,14 +38,7 @@ app.prepare().then(() => {
   server.use(corsMiddleware);
   server.use(redirectTrailingSlash);
 
-  // Serve static files from the `.next` directory correctly
-  server.use('/com/_next', express.static(path.join(__dirname, '.next', 'static')));
-  server.use('/com/static', express.static(path.join(__dirname, 'public', 'static')));
-  
-  // Handle all requests under /com
-  server.use('/com', (req, res) => handle(req, res));
-
-  // Catch-all fallback
+  // Handle all requests - let Next.js handle static assets
   server.all('*', (req, res) => {
     return handle(req, res);
   });
