@@ -33,7 +33,7 @@ function corsMiddleware(req, res, next) {
 
 app.prepare().then(() => {
   const server = express();
-  const port = process.env.PORT || 5000;
+  const port = process.env.PORT || 3000;
 
   server.use(corsMiddleware);
   server.use(redirectTrailingSlash);
