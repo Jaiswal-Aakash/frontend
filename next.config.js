@@ -10,7 +10,7 @@ const nextConfig = {
   },
   // distDir: "dist",
   sassOptions: { includePaths: [path.join(__dirname, "styles")] },
-  output: isProd ? "export" : undefined,
+  // output: isProd ? "export" : undefined,
   trailingSlash: true,
 };
 module.exports = {
