@@ -36,7 +36,7 @@ app.prepare().then(() => {
   const port = process.env.PORT || 3000;
 
   server.use(corsMiddleware);
-  server.use(redirectTrailingSlash);
+  // server.use(redirectTrailingSlash);
 
   // Handle all requests - let Next.js handle static assets
   server.all('*', (req, res) => {
