@@ -9,9 +9,9 @@ Create a `.env.local` file in your project root with the following variables:
 NEXT_PUBLIC_API_URL=https://api.lhome.co.in/api
 
 # NextAuth Configuration (if using authentication)
-NEXTAUTH_SECRET=your-nextauth-secret-here
+NEXTAUTH_SECRET=6dbba3112e4f37d3a42a289b0b61d07d198a47cd5ecaa15106c35dbebfe908ff
 AUTH_USERNAME=admin
-AUTH_PASSWORD=your-admin-password
+AUTH_PASSWORD=admin123
 
 # Environment
 NODE_ENV=production

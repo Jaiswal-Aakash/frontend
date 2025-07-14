@@ -1,7 +1,6 @@
 import axios from "axios";
 
-// Use the correct environment variable for API URL
-const url = process.env.NEXT_PUBLIC_API_URL || "https://api.lhome.co.in/api";
+const url = process.env.NEXT_PUBLIC_REACT_APP_API_URL
 
 const AxiosService = axios.create({
     baseURL : url,
