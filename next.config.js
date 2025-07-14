@@ -4,7 +4,6 @@ const nextConfig = {
   eslint: { ignoreDuringBuilds: true },
   reactStrictMode: true,
   swcMinify: true,
-  assetPrefix: "/",
   images: {
     domains: isProd ? ["https://www.lhome.co.in"] : ["localhost"],
     unoptimized: isProd,
@@ -12,7 +11,10 @@ const nextConfig = {
   // distDir: "dist",
   sassOptions: { includePaths: [path.join(__dirname, "styles")] },
   output: isProd ? "export" : undefined,
-  assetPrefix: isProd ? "https://www.lhome.co.in" : undefined,
   trailingSlash: true,
 };
-module.exports = nextConfig;
+module.exports = {
+  basePath: '/com',
+  assetPrefix: '/com/',
+  ...nextConfig,
+};
