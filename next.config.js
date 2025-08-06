@@ -13,8 +13,4 @@ const nextConfig = {
   // output: isProd ? "export" : undefined,
   trailingSlash: true,
 };
-module.exports = {
-  basePath: '/com',
-  assetPrefix: '/com/',
-  ...nextConfig,
-};
+module.exports = nextConfig;
