@@ -4,6 +4,7 @@ module.exports = {
   content: [
        "./pages/**/*.{js,jsx,ts,tsx}",
        "./pages/_components/**/*.{js,jsx,ts,tsx}",
+       "./components/**/*.{js,jsx,ts,tsx}",
   ],
   plugins:[
     plugin(function ({ addBase, addComponents, addUtilities, theme }) {
@@ -14,6 +15,26 @@ module.exports = {
         '.showOptions': {
           opacity:1,
         }
+      })
+      addUtilities({
+        '.line-clamp-2': {
+          display: '-webkit-box',
+          '-webkit-line-clamp': '2',
+          '-webkit-box-orient': 'vertical',
+          overflow: 'hidden',
+        },
+        '.line-clamp-3': {
+          display: '-webkit-box',
+          '-webkit-line-clamp': '3',
+          '-webkit-box-orient': 'vertical',
+          overflow: 'hidden',
+        },
+        '.line-clamp-4': {
+          display: '-webkit-box',
+          '-webkit-line-clamp': '4',
+          '-webkit-box-orient': 'vertical',
+          overflow: 'hidden',
+        },
       })
     }),
   ],
@@ -27,7 +48,12 @@ module.exports = {
             "0%": { opacity: 0,transform: "translate3d(0, 5%, 0)" },
             "100%": { opacity: 1, transform: "translate3d(0, 0, 0)"}
           }
-      })
+      }),
+      lineClamp: {
+        2: '2',
+        3: '3',
+        4: '4',
+      }
     },
     screens :{
       'sm' : '640px',

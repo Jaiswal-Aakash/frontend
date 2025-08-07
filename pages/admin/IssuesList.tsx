@@ -124,10 +124,10 @@ export default function IssuesList() {
   };
 
   return (
-    <div className="p-4">
-      <h2 className="text-lg poppins font-base mb-4">Customer Issues</h2>
+    <div className="p-3 sm:p-4 md:p-6">
+      <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl poppins font-base mb-3 sm:mb-4 md:mb-6">Customer Issues</h2>
       {loading ? (
-        <p className="text-sm">Loading issues...</p>
+        <p className="text-xs sm:text-sm md:text-base">Loading issues...</p>
       ) : (
         <div className="max-w-full max-h-[400px] overflow-y-auto overflow-x-auto border rounded-md">
           <CustomTable
@@ -135,38 +135,40 @@ export default function IssuesList() {
             data={issues}
             renderRow={(issue) => (
               <tr key={issue.id} className="border-b text-xs">
-                <td className="p-2 w-[40px] poppins text-base text-center">
+                <td className="p-1 sm:p-2 md:p-3 w-[40px] poppins text-[10px] sm:text-xs md:text-sm lg:text-base text-center">
                   {issue.id}
                 </td>
-                <td className="p-2 w-[80px] poppins max-w-[80px] text-base break-words whitespace-normal text-center">
+                <td className="p-1 sm:p-2 md:p-3 w-[60px] sm:w-[80px] poppins text-[10px] sm:text-xs md:text-sm lg:text-base text-center truncate" title={issue.userId.toString()}>
                   {issue.userId}
                 </td>
-                <td className="p-2 w-[250px] poppins text-base break-words">
+                <td className="p-1 sm:p-2 md:p-3 w-[200px] sm:w-[250px] poppins text-[8px] sm:text-[10px] md:text-xs lg:text-sm break-words max-w-[200px] sm:max-w-[250px] truncate" title={issue.issue}>
                   {issue.issue}
                 </td>
-                <td className="p-2 w-[120px] poppins text-base text-center">
+                <td className="p-1 sm:p-2 md:p-3 w-[80px] sm:w-[120px] poppins text-[10px] sm:text-xs md:text-sm lg:text-base text-center">
                   {new Date(issue.createdAt).toLocaleDateString()}
                 </td>
-                <td className="p-2 w-[80px] poppins text-base text-center">
-                  <Button
-                    variant="outline"
-                    size="xs"
-                    className=" px-0 py-1 text-base poppins mr-3 w-[129px] bg-blue-500 hover:bg-blue-600 px-2 py-1"
-                    onClick={() => handleViewDetails(issue.userId)}
-                  >
-                    View Details
-                  </Button>
-                  <Button
-                    variant="destructive"
-                    size="xs"
-                    className="text-base bg-red-500 hover:bg-red-600 poppins px-2 py-1"
-                    onClick={() => {
-                      setIssueToDelete(issue.id);
-                      setConfirmDelete(true);
-                    }}
-                  >
-                    Close Issue
-                  </Button>
+                <td className="p-1 sm:p-2 md:p-3 w-[120px] sm:w-[160px] poppins text-[10px] sm:text-xs md:text-sm lg:text-base text-center">
+                  <div className="flex flex-col sm:flex-row gap-1 sm:gap-2">
+                    <Button
+                      variant="primary"
+                      size="xs"
+                      className="w-full sm:w-auto text-[8px] sm:text-[10px] md:text-xs lg:text-sm poppins"
+                      onClick={() => handleViewDetails(issue.userId)}
+                    >
+                      View Details
+                    </Button>
+                    <Button
+                      variant="danger"
+                      size="xs"
+                      className="w-full sm:w-auto text-[8px] sm:text-[10px] md:text-xs lg:text-sm poppins"
+                      onClick={() => {
+                        setIssueToDelete(issue.id);
+                        setConfirmDelete(true);
+                      }}
+                    >
+                      Close Issue
+                    </Button>
+                  </div>
                 </td>
               </tr>
             )}

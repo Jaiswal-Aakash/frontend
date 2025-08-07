@@ -39,22 +39,33 @@ const CreateJobPage = () => {
   };
 
   return (
-    <div className="flex">
-      <div className="p-1 w-full">
-        <h1 className="text-xl font-base poppins mb-4">Create Job</h1>
-        <div className="grid grid-cols-3 gap-9 mb-9">
+    <div className="w-full">
+      <div className="p-2 sm:p-3 md:p-4">
+        <h1 className="text-sm sm:text-base md:text-lg font-semibold poppins mb-2 sm:mb-3 md:mb-4 text-gray-800">Create Job</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 md:gap-4 mb-3 sm:mb-4 md:mb-6">
           {Object.keys(newJob).map((key) => (
-            <input
-  className="w-full p-3 border border-black-300 text-xl poppins placeholder:text-xl placeholder:text-grey-700 bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-  type="text"
-  placeholder={key}
-  value={(newJob as any)[key]}
-  onChange={(e) => setNewJob({ ...newJob, [key]: e.target.value })}
-/>
-
+            <div key={key} className="space-y-1">
+              <label className="block text-[8px] sm:text-[10px] md:text-xs font-medium text-gray-700 poppins capitalize">
+                {key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}
+              </label>
+              <input
+                className="w-full p-1.5 sm:p-2 md:p-3 border border-gray-300 text-[8px] sm:text-[10px] md:text-xs poppins placeholder:text-[8px] sm:placeholder:text-[10px] md:placeholder:text-xs placeholder:text-gray-500 bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                type="text"
+                placeholder={`Enter ${key.replace(/([A-Z])/g, ' $1').toLowerCase()}`}
+                value={(newJob as any)[key]}
+                onChange={(e) => setNewJob({ ...newJob, [key]: e.target.value })}
+              />
+            </div>
           ))}
         </div>
-        <Button onClick={handleCreateJob} className="mb-6 poppins text-sm">Create Job</Button>
+        <Button 
+          variant="primary" 
+          size="sm" 
+          onClick={handleCreateJob} 
+          className="poppins w-full sm:w-auto text-[8px] sm:text-[10px] md:text-xs"
+        >
+          Create Job
+        </Button>
       </div>
     </div>
   );
